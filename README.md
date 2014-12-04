@@ -1,3 +1,3 @@
 responsive grid
 
-webvers.cc.ua/drkorf/index.html
+http://webvers.cc.ua/drkorf/index.html
