@@ -1,1 +1,1 @@
-ponsive grid
+responsive grid
