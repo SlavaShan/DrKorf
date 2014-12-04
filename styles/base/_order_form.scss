@@ -1,0 +1,264 @@
+
+.modal_wrapper {
+    padding-bottom: 255px;
+    width: 100%;
+    height: 100%;
+}
+
+.bg_modal {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.order_form {
+    font-family: 'PT_Sans-Web-Bold';
+    background-color: #f4f4f6;
+    border: 6px solid #fff;
+    border-radius: 5px;
+}
+
+.order_form h5 {
+    font-weight: bold;
+    color: #1164c0;
+    text-align: center;
+}
+
+.order_form label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.order_form input {
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+       -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+            box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+@media (min-width: 1200px) {
+
+    // order form
+
+    .order_form {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        width: 430px;
+        height: 445px;
+        padding: 25px 75px;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+    
+    .close_btn {
+        position: absolute;
+        top: -40px;
+        right: -40px;
+        background: url(../images/close_btn_icon.png);
+        width: 37px;
+        height: 37px;
+        cursor: pointer;
+    }
+
+    .order_form h5 {
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+
+    .order_form label {
+        font-size: 18px;
+    }
+
+    .order_form input {
+        width: 100%;
+        height: 36px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        margin-bottom: 28px;
+        font: 16px 'PT_Sans-Web-Regular';
+    }
+
+    .order_form a.form_btn {
+        @include order_btn;
+        margin: 0 auto;
+    }
+
+    // end order form
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    // order form
+
+    .order_form {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        width: 380px;
+        height: 430px;
+        padding: 20px 65px;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+    
+    .close_btn {
+        position: absolute;
+        top: -40px;
+        right: -40px;
+        background: url(../images/close_btn_icon.png);
+        width: 37px;
+        height: 37px;
+        cursor: pointer;
+    }
+
+    .order_form h5 {
+        margin-bottom: 26px;
+        font-size: 28px;
+    }
+
+    .order_form label {
+        font-size: 18px;
+    }
+
+    .order_form input {
+        width: 100%;
+        height: 36px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font: 16px 'PT_Sans-Web-Regular';
+    }
+
+    .order_form a.form_btn {
+        @include order_btn;
+        margin: 0 auto;
+    }
+
+    // end order form
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    // order form
+
+    .order_form {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        width: 300px;
+        height: 365px;
+        padding: 20px 40px;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+    
+    .close_btn {
+        position: absolute;
+        top: -28px;
+        right: -28px;
+        background: url(../images/close_btn_icon-small.png);
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .order_form h5 {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .order_form label {
+        font-size: 15px;
+    }
+
+    .order_form input {
+        width: 100%;
+        height: 32px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font: 14px 'PT_Sans-Web-Regular';
+    }
+
+    .order_form a.form_btn {
+        @include order_btn_sm;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+    // order form
+
+    html {
+        min-width: 565px
+    }
+
+    .order_form {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        width: 230px;
+        height: 340px;
+        padding: 15px 30px;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+    
+    .close_btn {
+        position: absolute;
+        top: -28px;
+        right: -28px;
+        background: url(../images/close_btn_icon-small.png);
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .order_form h5 {
+        margin-bottom: 18px;
+        font-size: 18px;
+    }
+
+    .order_form label {
+        font-size: 14px;
+    }
+
+    .order_form input {
+        width: 100%;
+        height: 32px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font: 12px 'PT_Sans-Web-Regular';
+    }
+
+    .order_form a.form_btn {
+        @include order_btn_sm;
+        margin: 0 auto;
+    }
+
+}

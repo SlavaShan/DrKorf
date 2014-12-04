@@ -1,0 +1,61 @@
+// footer
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+// footer top
+
+.footer_inner-top {
+    background: -webkit-gradient(linear, left top, right top, from(#f5f5f5), to(#fbfbfb));
+    background: -webkit-linear-gradient(top, #f5f5f5, #fbfbfb);
+    background:    -moz-linear-gradient(top, #f5f5f5, #fbfbfb);
+    background:      -o-linear-gradient(top, #f5f5f5, #fbfbfb);
+    background:     -ms-linear-gradient(top, #f5f5f5, #fbfbfb);
+    background:         linear-gradient(top, #f5f5f5, #fbfbfb);
+    background-color: #f5f5f5;
+}
+
+.footer_inner-top .footer_social {
+    text-align: center;
+    vertical-align: middle;
+    h5 {
+        display: inline-block;
+        vertical-align: top;
+    }
+    ul {
+        display: inline-block;
+
+        li {
+            float: left;
+        }
+    }
+}
+
+// footer bottom
+
+.footer_inner-bottom {
+    color: #e5e1e1;
+    background-color: #141517;
+    border-top: 4px solid #0f64be;
+    border-bottom: 2px solid #a0a1a3;
+}
+
+.f_b-left_side {
+    a {
+        color: #1f7cdb;
+    }
+}
+
+.f_b-right_side {
+    span {
+        color: #939393;
+    }
+    a {
+        color: #1f7cdb;
+    }
+}
+
+// end footer

@@ -1,0 +1,344 @@
+@media (min-width: 1200px) {
+
+	// buykorf content
+
+	.buykorf_content {
+	    padding-bottom: 235px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.buykorf_content p {
+	    line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.buycorf_bread-crumbs {
+		@include breadcrumbs_lg;
+	}
+
+	// buykorf_content navigation
+
+	.buycorf_navigation {
+	    @include navigation_lg;
+	}
+
+	// buykorf_location_title
+
+	.buykorf_location_title {
+	    margin-bottom: 15px;
+	}
+
+	.buykorf_location_title h3 {
+	    margin-top: -9px;
+	    margin-bottom: 25px;
+	    font: 50px 'BebasNeueBold';
+	}
+
+	.buykorf_location_title p {
+	    margin-bottom: 15px;
+	}
+	
+	// locator_wrap
+
+	.locator_wrap {
+	    margin-bottom: 25px;
+
+	    @include pie-clearfix;
+	}
+
+	.easy_locator {
+	    float: left;
+	    #EasyLocator {
+	        margin-left: -10px;
+	    }
+	    #EasyLocator_mob {
+	    	display: none;
+	    }
+	}
+
+	.shopping_nets {
+	    float: left;
+	    margin-left: 60px;
+	}
+
+	.shopping_nets ul {
+	    width: 240px;
+	    margin-top: 55px;
+	    margin-left: -40px;
+	}
+
+	.shopping_nets li {
+	    float: left;
+	    margin-bottom: 5px;
+	    margin-left: 40px;
+	}
+
+	// end locator_wrap
+
+	// end buykorf content
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	// buykorf content
+
+	.buykorf_content {
+	    padding-bottom: 235px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.buykorf_content p {
+	    line-height: 1.5;
+	}
+
+	.buycorf_bread-crumbs {
+		@include breadcrumbs_lg;
+		margin-bottom: 35px;
+	}
+
+	// buykorf_content navigation
+
+	.buycorf_navigation {
+	    @include navigation_md;
+	}
+
+	// buykorf_location_title
+
+	.buykorf_location_title {
+	    margin-bottom: 15px;
+	}
+
+	.buykorf_location_title h3 {
+	    margin-top: -9px;
+	    margin-bottom: 20px;
+	    font: 42px 'BebasNeueBold';
+	}
+
+	.buykorf_location_title p {
+	    margin-bottom: 10px;
+	}
+
+	// end buykorf_location_title
+
+	
+	// locator_wrap
+
+	.locator_wrap {
+	    margin-bottom: 25px;
+
+	    @include pie-clearfix;
+	}
+
+	.easy_locator {
+	    float: left;
+	    #EasyLocator {
+	        margin-left: -10px;
+	    }
+	    #EasyLocator_mob {
+	    	display: none;
+	    }
+	}
+
+	.shopping_nets {
+	    float: left;
+	    margin-left: 35px;
+	}
+
+	.shopping_nets ul {
+	    width: 80px;
+	}
+
+	.shopping_nets li {
+	    float: left;
+	    margin-bottom: 10px;
+	}
+
+	// end locator_wrap
+
+	// end buykorf content
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	// buykorf content
+
+	.buykorf_content {
+	    padding-bottom: 225px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.buykorf_content p {
+	    line-height: 1.5;
+	}
+
+	.buycorf_bread-crumbs {
+		@include breadcrumbs_lg;
+		margin-bottom: 25px;
+	}
+
+	// buykorf_content navigation
+
+	.buycorf_navigation {
+	    @include navigation_sm;
+	}
+
+	// buykorf_location_title
+
+	.buykorf_location_title {
+	    margin-bottom: 15px;
+	}
+
+	.buykorf_location_title h3 {
+	    margin-top: -5px;
+	    margin-bottom: 15px;
+	    font: 34px 'BebasNeueBold';
+	}
+
+	.buykorf_location_title p {
+	    margin-bottom: 10px;
+	}
+
+	// end buykorf_location_title
+
+	
+	// locator_wrap
+
+	.locator_wrap {
+	    margin-bottom: 25px;
+	   @include pie-clearfix;
+
+	}
+
+	.easy_locator {
+		float: left;
+	    #EasyLocator {
+	    	display: none;
+	    }
+	    #EasyLocator_mob {
+	        width: 500px;
+	        height: 600px;
+	    }
+	}
+
+	.shopping_nets {
+		float: left;
+		margin-top: 5px;
+		margin-left: 25px;
+	}
+
+	.shopping_nets ul {
+	    width: 60px;
+	}
+
+	.shopping_nets li {
+	    float: left;
+	    img {
+		    width: 60px;
+	    }
+	}
+
+	// end locator_wrap
+
+	// end buykorf content
+
+}
+
+@media (max-width: 767px) {
+
+	// buykorf content
+
+	.buykorf_content {
+	    padding-bottom: 245px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.buykorf_content p {
+		width: 290px;
+	    line-height: 1.5;
+	}
+
+	.buycorf_bread-crumbs {
+		@include breadcrumbs_lg;
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	// buykorf_content navigation
+
+	.buycorf_navigation {
+		width: 290px;
+		margin: 0 auto;
+	    @include navigation_xs;
+	}
+
+	.b_l_mob_wrap {
+		width: 290px;
+		margin: 0 auto;
+	}
+
+	// buykorf_location_title
+
+	.buykorf_location_title {
+		margin-top: 25px;
+	    margin-bottom: 10px;
+	    text-align: center;
+	}
+
+	.buykorf_location_title h3 {
+	    margin-bottom: 10px;
+	    font: 24px 'BebasNeueBold';
+	}
+
+	// end buykorf_location_title
+	
+	// locator_wrap
+
+	.locator_wrap {
+	    margin-bottom: 35px;
+	   @include pie-clearfix;
+
+	}
+
+	.easy_locator {
+	    #EasyLocator {
+	    	display: none;
+	    }
+	    #EasyLocator_mob {
+	        width: 290px;
+	        height: 400px;
+	    }
+	}
+
+	.shopping_nets {
+		margin-top: 25px;
+	}
+
+	.shopping_nets ul {
+	    margin-left: -15px;
+	}
+
+	.shopping_nets li {
+	    float: left;
+	    margin-left: 16px;
+	    img {
+		    width: 60px;
+	    }
+	}
+
+	// end locator_wrap
+
+	// end buykorf content
+
+}

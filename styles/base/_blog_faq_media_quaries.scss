@@ -1,0 +1,283 @@
+@media (min-width: 1200px) {
+
+	// blog FAQ
+
+	.blog_faq_content {
+	    padding-bottom: 275px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.blog_faq_content p {
+	    line-height: 1.5;
+	}
+
+	.blog_faq_bread-crumbs {
+	    @include breadcrumbs_lg;
+	}
+
+	.blog_faq_navigation {
+	    @include navigation_lg;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 75px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	.bl_faq_cnt h3 {
+		margin-top: -9px;
+		margin-bottom: 50px;
+	    font: 50px 'BebasNeueBold';
+	}
+
+	.faq_question_wrap {
+		margin-bottom: 10px;
+	}
+
+	.faq_question_wrap .f_q_title-down {
+		position: relative;
+	    padding-left: 20px;
+	    margin-bottom: 20px;
+	    background: url('../images/br_arrow_blue-down_icon.png') 0 9px no-repeat;
+	}
+
+	.faq_question_wrap .f_q_title-down a {
+		font: 20px 'PT_Sans-Web-Bold';
+	}
+
+	.faq_question_wrap .f_q_title-up {
+		position: relative;
+	    padding-left: 20px;
+	    margin-bottom: 20px;
+	    background: url('../images/br_arrow_icon.png') 0 9px no-repeat;
+	}
+
+	.faq_question_wrap .f_q_title-up a {
+		font: 20px 'PT_Sans-Web-Bold';
+	}
+
+	// end blog FAQ
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	// blog FAQ
+
+	.blog_faq_content {
+	    padding-bottom: 275px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.blog_faq_content p {
+	    line-height: 1.5;
+	}
+
+	.blog_faq_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 35px;
+	}
+
+	.blog_faq_navigation {
+	    @include navigation_md;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 65px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	.bl_faq_cnt h3 {
+		margin-top: -8px;
+		margin-bottom: 20px;
+	    font: 42px 'BebasNeueBold';
+	}
+
+	.faq_question_wrap {
+		margin-bottom: 10px;
+	}
+
+	.faq_question_wrap .f_q_title-down {
+		position: relative;
+	    padding-left: 20px;
+	    margin-bottom: 20px;
+	    background: url('../images/br_arrow_blue-down_icon.png') 0 9px no-repeat;
+	}
+
+	.faq_question_wrap .f_q_title-down a {
+		font: 18px 'PT_Sans-Web-Bold';
+	}
+
+	.faq_question_wrap .f_q_title-up {
+		position: relative;
+	    padding-left: 20px;
+	    margin-bottom: 20px;
+	    background: url('../images/br_arrow_icon.png') 0 9px no-repeat;
+	}
+
+	.faq_question_wrap .f_q_title-up a {
+		font: 18px 'PT_Sans-Web-Bold';
+	}
+
+	// end blog FAQ
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	// blog FAQ
+
+	.blog_faq_content {
+	    padding-bottom: 275px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.blog_faq_content p {
+	    line-height: 1.5;
+	}
+
+	.blog_faq_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 25px;
+	}
+
+	.blog_faq_navigation {
+	    @include navigation_sm;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	.bl_faq_cnt h3 {
+		margin-top: -5px;
+		margin-bottom: 15px;
+	    font: 34px 'BebasNeueBold';
+	}
+
+	.faq_question_wrap {
+		margin-bottom: 10px;
+	}
+
+	.faq_question_wrap .f_q_title-down {
+		position: relative;
+	    padding-left: 20px;
+	    margin-bottom: 15px;
+	    background: url('../images/br_arrow_blue-down_icon.png') 0 9px no-repeat;
+	}
+
+	.faq_question_wrap .f_q_title-down a {
+		font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	.faq_question_wrap .f_q_title-up {
+		position: relative;
+	    padding-left: 20px;
+	    margin-bottom: 15px;
+	    background: url('../images/br_arrow_icon.png') 0 7px no-repeat;
+	}
+
+	.faq_question_wrap .f_q_title-up a {
+		font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	// end blog FAQ
+}
+
+@media (max-width: 767px) {
+
+		// blog FAQ
+
+	.blog_faq_content {
+	    padding-bottom: 275px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.blog_faq_content p {
+	    line-height: 1.5;
+	}
+
+	.blog_faq_bread-crumbs {
+	    @include breadcrumbs_lg;
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.blog_faq_navigation {
+	    width: 290px;
+		margin: 0 auto;
+	    @include navigation_xs;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	.bl_faq_cnt {
+		width: 290px;
+		margin: 0 auto;
+		text-align: center;
+	}	
+
+	.bl_faq_cnt h3 {
+		margin-top: 25px;
+	    margin-bottom: 15px;
+	    font: 24px 'BebasNeueBold';
+	}
+
+	.faq_question_wrap {
+		margin-bottom: 10px;
+	}
+
+	.faq_question_wrap .f_q_title-down {
+		position: relative;
+	    padding-left: 20px;
+	    margin-bottom: 15px;
+	    background: url('../images/br_arrow_blue-down_icon.png') 15px 9px no-repeat;
+	}
+
+	.faq_question_wrap .f_q_title-down a {
+		font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	.faq_question_wrap .f_q_title-up {
+		position: relative;
+	    padding-left: 20px;
+	    margin-bottom: 15px;
+	    background: url('../images/br_arrow_icon.png') 15px 7px no-repeat;
+	}
+
+	.faq_question_wrap .f_q_title-up a {
+		font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	// end blog FAQ
+}

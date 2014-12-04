@@ -1,0 +1,404 @@
+@media (min-width: 1200px) {
+
+	// contest page
+
+	.contest_content {
+	    padding-bottom: 250px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.contest_content p {
+	    line-height: 1.5;
+	}
+
+	.contest_acticle header {
+	    margin-top: 70px;
+	    margin-bottom: 25px;
+	}
+
+	.contest_acticle header h3 {
+	    font: 50px 'BebasNeueBold';
+	}
+
+	.contest_acticle aside {
+	    margin-bottom: 25px;
+	}
+
+	.contest_acticle .art_title p {
+	    margin-bottom: 25px;
+	}
+
+	.contest_acticle .art_title img {
+	    margin-bottom: 25px;
+	}
+
+	// .read_more-blc-cnt {
+	//     display: none;
+	// }
+
+	.contest_acticle .read_more-blc-cnt {
+	    margin-bottom: 30px;
+	}
+
+	.contest_acticle .read_more-blc-cnt p {
+	    margin-bottom: 30px;
+	}
+
+	.contest_acticle .read_more-blc-cnt .upload_btn {
+	    @include upload_btn;
+	}
+
+	.contest_acticle .read_more-blc .r_m_btn-wrap {
+	    position: relative;
+	    padding-left: 20px;
+	    a {
+	        font: 20px 'PT_Sans-Web-Bold';
+	        color: #0f65bd;
+	        text-decoration: none;
+	        border-bottom: 1px dashed #0f65bd;
+	    }
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/folding_icon.png');
+	    }
+	}
+
+	// dop class
+	.contest_acticle .read_more-blc .r_m_btn-wrap-up {
+	    position: relative;
+	    padding-left: 20px;
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/dropout_icon.png');
+	    }
+	}
+	// dop class
+
+	.contest_acticle footer {
+	    @include beverages_post_social_icons;
+	    padding-left: 0;
+	}
+	.contest_acticle hr {
+	    margin-bottom: 30px;
+	}
+
+// end contest page
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	// contest page
+
+	.contest_content {
+	    padding-bottom: 250px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.contest_content p {
+	    line-height: 1.5;
+	}
+
+	.contest_acticle {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle header {
+	    margin-top: 40px;
+	    margin-bottom: 15px;
+	}
+
+	.contest_acticle header h3 {
+	    font: 42px 'BebasNeueBold';
+	}
+
+	.contest_acticle aside {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle .art_title p {
+	    margin-bottom: 15px;
+	}
+
+	.contest_acticle .art_title img {
+	    margin-bottom: 15px;
+	    width: 650px;
+	}
+
+	// .read_more-blc-cnt {
+	//     display: none;
+	// }
+
+	.contest_acticle .read_more-blc-cnt {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle .read_more-blc-cnt p {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle .read_more-blc-cnt .upload_btn {
+	    @include upload_btn_sm;
+	}
+
+	.contest_acticle .read_more-blc .r_m_btn-wrap {
+	    position: relative;
+	    padding-left: 20px;
+	    a {
+	        font: 18px 'PT_Sans-Web-Bold';
+	        color: #0f65bd;
+	        text-decoration: none;
+	        border-bottom: 1px dashed #0f65bd;
+	    }
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/folding_icon.png');
+	    }
+	}
+
+	// dop class
+	.contest_acticle .read_more-blc .r_m_btn-wrap-up {
+	    position: relative;
+	    padding-left: 20px;
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/dropout_icon.png');
+	    }
+	}
+	// dop class
+
+	.contest_acticle footer {
+	    @include beverages_post_social_icons;
+	    padding-left: 0;
+   		margin-bottom: 25px;
+	}
+
+// end contest page
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	// contest page
+
+	.contest_content {
+	    padding-bottom: 250px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.contest_content p {
+	    line-height: 1.5;
+	}
+
+	.contest_acticle {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle header {
+	    margin-top: 30px;
+	    margin-bottom: 10px;
+	}
+
+	.contest_acticle header h3 {
+	    font: 34px 'BebasNeueBold';
+	}
+
+	.contest_acticle aside {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle .art_title p {
+	    margin-bottom: 10px;
+	}
+
+	.contest_acticle .art_title img {
+	    margin-bottom: 10px;
+	    width: 500px;
+	}
+
+	// .read_more-blc-cnt {
+	//     display: none;
+	// }
+
+	.contest_acticle .read_more-blc-cnt {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle .read_more-blc-cnt p {
+	    margin-bottom: 15px;
+	}
+
+	.contest_acticle .read_more-blc-cnt .upload_btn {
+	    @include upload_btn_sm;
+	}
+
+	.contest_acticle .read_more-blc .r_m_btn-wrap {
+	    position: relative;
+	    padding-left: 20px;
+	    a {
+	        font: 16px 'PT_Sans-Web-Bold';
+	        color: #0f65bd;
+	        text-decoration: none;
+	        border-bottom: 1px dashed #0f65bd;
+	    }
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/folding_icon.png');
+	    }
+	}
+
+	// dop class
+	.contest_acticle .read_more-blc .r_m_btn-wrap-up {
+	    position: relative;
+	    padding-left: 20px;
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/dropout_icon.png');
+	    }
+	}
+	// dop class
+
+	.contest_acticle footer {
+	    @include beverages_post_social_icons;
+	    padding-left: 0;
+   		margin-bottom: 20px;
+	}
+
+// end contest page
+
+}
+
+@media (max-width: 767px) {
+
+	// contest page
+
+	.contest_content {
+	    padding-bottom: 250px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.contest_content p {
+	    line-height: 1.5;
+	}
+
+	.contest_acticle {
+		width: 290px;
+		margin: 0 auto;
+	    margin-bottom: 20px;
+	    text-align: center;
+	}
+
+	.contest_acticle header {
+	    margin-top: 25px;
+	    margin-bottom: 10px;
+	}
+
+	.contest_acticle header h3 {
+	    font: 24px 'BebasNeueBold';
+	}
+
+	.contest_acticle aside {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle .art_title p {
+	    margin-bottom: 10px;
+	}
+
+	.contest_acticle .art_title img {
+	    margin-bottom: 10px;
+	    width: 290px;
+	}
+
+	// .read_more-blc-cnt {
+	//     display: none;
+	// }
+
+	.contest_acticle .read_more-blc-cnt {
+	    margin-bottom: 20px;
+	}
+
+	.contest_acticle .read_more-blc-cnt p {
+	    margin-bottom: 15px;
+	}
+
+	.contest_acticle .read_more-blc-cnt .upload_btn {
+	    @include upload_btn_sm;
+	    display: inline-block;
+	    text-align: left;
+	}
+
+	.contest_acticle .read_more-blc .r_m_btn-wrap {
+	    position: relative;
+	    a {
+	        font: 16px 'PT_Sans-Web-Bold';
+	        color: #0f65bd;
+	        text-decoration: none;
+	        border-bottom: 1px dashed #0f65bd;
+	    }
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 48px;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/folding_icon.png');
+	    }
+	}
+
+	// dop class
+	.contest_acticle .read_more-blc .r_m_btn-wrap-up {
+	    position: relative;
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 50px;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/dropout_icon.png');
+	    }
+	}
+	// dop class
+
+	.contest_acticle footer {
+	    @include beverages_post_social_icons;
+	    padding-left: 0;
+   		margin-bottom: 20px;
+	}
+
+// end contest page
+
+}

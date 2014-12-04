@@ -1,0 +1,1170 @@
+@media (min-width: 1200px) {
+	
+	// photogalary content
+
+	.photogalary_content {
+	    padding-bottom: 255px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.photogalary_content p {
+	    line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.photogalary_content_bread-crumbs {
+	    @include breadcrumbs_lg;
+	}
+
+	// photogalary_content navigation
+
+	.photogalary_navigation {
+	    @include navigation_lg;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 75px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// aside navigation
+
+	.photogalary_navigation {
+
+	    .p_c_makekorf-wrap {
+	        position: relative;
+	        margin-top: 140px;
+	        text-align: center;
+	        &:before {
+	            position: absolute;
+	            top: -110px;
+	            left: 45px;
+	            width: 97px;
+	            height: 102px;
+	            content: '';
+	            background: url(../images/label1_icon.png);
+	        }
+	    }
+
+	    .p_c_makekorf-wrap h4 {
+	        margin-bottom: 10px;
+	        font: 21px 'BebasNeueBold';
+	        color: #f26259;
+	    }
+
+	    .p_c_makekorf-wrap a {
+	        position: relative;
+	        font: 16px 'PT_Sans-Web-Italic';
+	        color: #0f65bd;
+	        text-decoration: none;
+	        border-bottom: 1px dashed #0f65bd;
+	        &:after {
+	            position: absolute;
+	            bottom: -17px;
+	            left: 35px;
+	            width: 57px;
+	            height: 5px;
+	            font: 16px 'PT_Sans-Web-Regular';
+	            content: '';
+	            background: url(../images/dashed_line-art.png);
+	        }
+	    }
+	}
+
+	// end aside navigation
+
+	// album_name_title
+
+	.album_name_title {
+	    margin-bottom: 25px;
+	}
+
+	.album_name_title h3 {
+	    margin-top: -9px;
+	    margin-bottom: 25px;
+	    font: 50px 'BebasNeueBold';
+	}
+
+	.album_name_title p {
+	    margin-bottom: 15px;
+	}
+
+	.album_name_title a {
+	    position: relative;
+	    display: block;
+	    width: 200px;
+	    height: 48px;
+	    color: #fff;
+	    padding-left: 30px;
+	    text-decoration: none;
+	    line-height: 48px;
+	    text-align: center;
+	    &:before {
+	        content: '';
+	        position: absolute;
+	        top: 15px;
+	        left: 12px;
+	        background: url(../images/edit_your_photo_icon.png);
+	        width: 20px;
+	        height: 20px;
+	    }
+	}
+
+	// end album_name_title
+	
+	.album_search_form {
+	    margin-bottom: 25px;
+	}
+
+	.album_search_form form {
+	    width: 945px;
+	    height: 97px;
+	    padding: 15px 30px;
+	}
+
+	.search_photo {
+	    position: relative;
+	    display: inline-block;
+	    padding-top: 25px;
+	    margin-right: 37px;
+	    span {
+	        position: absolute;
+	        top: -5px;
+	        left: 0;
+	        font: 20px 'PT_Sans-Web-Bold';
+	    }
+	    input {
+	        width: 263px;
+	        height: 36px;
+	        border: none;
+	        padding: 10px;
+	    }
+	    input[value] {
+	        font: 16px 'PT_Sans-Web-Italic';
+	    }
+	}
+
+	.catagory1 {
+	    
+	    position: relative;
+	    display: inline-block;
+	    margin-right: 37px;
+	    span {
+	        position: absolute;
+	        top: -25px;
+	        left: 0;
+	        font: 14px 'PT_Sans-Web-Regular';
+	        display: inline-block;
+	    }
+	    a {
+	        @include input;
+	    }
+	}
+
+	.catagory2 {
+	    position: relative;
+	    display: inline-block;
+	    margin-right: 37px;
+	    span {
+	        position: absolute;
+	        top: -25px;
+	        left: 0;
+	        font: 14px 'PT_Sans-Web-Regular';
+	        display: inline-block;
+	    }
+	    a {
+	        @include input;
+	    }
+	}
+
+	.al_search_btn {
+	    width: 165px;
+	    height: 39px;
+	    display: inline-block;
+	    font: 16px 'PT_Sans-Web-Regular';
+	    line-height: 39px;
+	    text-align: center;
+	}
+
+	// end album_search_form
+
+	// album_cards
+
+	.album_cards {
+	    @include pie-clearfix;
+	}
+
+	.album_cards ul {
+	    margin-left: -30px;
+	    li {
+	        float: left;
+	        margin-left: 30px;
+	        margin-bottom: 25px;
+	    }
+	}
+
+	.album_cards .a_card {
+	        width: 295px;
+	        height: 100%;
+	}
+
+	.card_img_wrap {
+	    position: relative;
+        width: 295px;
+        height: 100%;
+	    &:hover:after {
+	    	content: '';
+	        position: absolute;
+	        top: 25px;
+	        left: 115px;
+	        cursor: pointer;
+	        background: url(../images/card_big_like_icon.png);
+	        width: 67px;
+	        height: 67px;
+
+	    }
+	}
+
+	.card_author {
+	    margin-bottom: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	    span {
+	        margin: 0 10px 0 5px;
+	        font: 16px 'PT_Sans-Web-Bold';
+	    }
+	}
+
+	.card_btn-wrap {
+	    margin-bottom: 10px;
+	}
+
+	.card_btn-wrap .card_btn_l {
+	    @include like_btn;
+	    margin-right: 10px;
+	}
+
+	.card_btn-wrap .card_btn_p {
+	    @include repost_btn;
+	}
+
+	.your_comment_form {
+	    position: relative;
+	    width: 291px;
+	    height: 53px;
+	    padding: 10px 5px;
+	    span {
+	        position: absolute;
+	        top: 17px;
+	        right: 15px;
+	        background: url(../images/enter_blue_icon.png);
+	        width: 21px;
+	        height: 22px;
+	        cursor: pointer;
+	    }
+	    input {
+	        padding: 10px;
+	        width: 281px;
+	        height: 34px;
+	        border: none;
+	    }
+	    input[value] {
+	        font: 16px 'PT_Sans-Web-Italic';
+	    }
+	}
+
+	// end album_cards
+
+	// end photogalary content
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+	// photogalary content
+
+	.photogalary_content {
+	    padding-bottom: 255px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.photogalary_content p {
+	    line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.photogalary_content_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 35px;
+	}
+
+	// photogalary_content navigation
+
+	.photogalary_navigation {
+	    @include navigation_md;
+	    .cont_menu {
+	        ul {
+	            li {
+	                a {
+	                    padding-top: 12px;
+	                    line-height: 1.1;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// aside navigation
+
+	.photogalary_navigation {
+
+	    .p_c_makekorf-wrap {
+	        position: relative;
+	        margin-top: 130px;
+	        text-align: center;
+	        &:before {
+	            position: absolute;
+	            top: -110px;
+	            left: 35px;
+	            width: 97px;
+	            height: 102px;
+	            content: '';
+	            background: url(../images/beverages_label-big.png);
+	        }
+	    }
+
+	    .p_c_makekorf-wrap h4 {
+	        margin-bottom: 10px;
+	        font: 16px 'BebasNeueBold';
+	        color: #f26259;
+	    }
+
+	    .p_c_makekorf-wrap a {
+	        position: relative;
+	        font: 16px 'PT_Sans-Web-Italic';
+	        color: #0f65bd;
+	        text-decoration: none;
+	        border-bottom: 1px dashed #0f65bd;
+	        &:after {
+	            position: absolute;
+	            bottom: -17px;
+	            left: 12px;
+	            width: 57px;
+	            height: 5px;
+	            content: '';
+	            background: url(../images/dashed_line-art.png);
+	        }
+	    }
+	}
+
+	// end aside navigation
+
+	// album_name_title
+
+	.album_name_title {
+	    margin-bottom: 20px;
+	}
+
+	.album_name_title h3 {
+	    margin-top: -8px;
+	    margin-bottom: 20px;
+	    font: 42px 'BebasNeueBold';
+	}
+
+	.album_name_title p {
+	    margin-bottom: 15px;
+	}
+
+	.album_name_title a {
+	    position: relative;
+	    display: block;
+	    width: 180px;
+	    height: 48px;
+	    color: #fff;
+	    padding-left: 30px;
+	    text-decoration: none;
+	    line-height: 48px;
+	    text-align: center;
+	    &:before {
+	        content: '';
+	        position: absolute;
+	        top: 15px;
+	        left: 12px;
+	        background: url(../images/edit_your_photo_icon.png);
+	        width: 20px;
+	        height: 20px;
+	    }
+	}
+
+	// end album_name_title
+	
+	.album_search_form {
+	    margin-bottom: 25px;
+	}
+
+	.album_search_form form {
+	    width: 100%;
+	    height: 97px;
+	    padding: 15px 25px;
+	}
+
+	.search_photo {
+	    position: relative;
+	    display: inline-block;
+	    padding-top: 25px;
+	    margin-right: 25px;
+	    span {
+	        position: absolute;
+	        top: -5px;
+	        left: 0;
+	        font: 18px 'PT_Sans-Web-Bold';
+	    }
+	    input {
+	        width: 220px;
+	        height: 32px;
+	        border: none;
+	        padding: 10px;
+	    }
+	    input[value] {
+	        font: 14px 'PT_Sans-Web-Italic';
+	    }
+	}
+
+	.catagory1 {
+	    
+	    position: relative;
+	    display: inline-block;
+	    margin-right: 25px;
+	    span {
+	        position: absolute;
+	        top: -25px;
+	        left: 0;
+	        font: 14px 'PT_Sans-Web-Regular';
+	        display: inline-block;
+	    }
+	    a {
+	        @include input_sm;
+	        text-align: left;
+			padding-left: 10px;
+	    }
+	}
+
+	.catagory2 {
+	    position: relative;
+	    display: inline-block;
+	    margin-right: 25px;
+	    span {
+	        position: absolute;
+	        top: -25px;
+	        left: 0;
+	        font: 14px 'PT_Sans-Web-Regular';
+	        display: inline-block;
+	    }
+	    a {
+	        @include input_sm;
+	    }
+	}
+
+	.al_search_btn {
+        @include order_btn_sm;
+	    display: inline-block;
+
+	}
+
+	// end album_search_form
+
+	// album_cards
+
+	.album_cards {
+	    @include pie-clearfix;
+	}
+
+	.album_cards ul {
+	    margin-left: -25px;
+	    li {
+	        float: left;
+	        margin-left: 25px;
+	        margin-bottom: 25px;
+	    }
+	}
+
+	.album_cards .a_card {
+        width: 242px;
+        height: 100%;
+        img {
+        	width: 242px;
+        }
+	}
+
+	.card_img_wrap {
+	    position: relative;
+	    width: 242px;
+	    height: 230px;
+	    &:hover:after {
+	    	content: '';
+	        position: absolute;
+	        top: 25px;
+	        left: 97px;
+	        cursor: pointer;
+	        background: url(../images/card_mid_like_icon.png);
+	        width: 47px;
+	        height: 47px;
+	    }
+	}
+
+	.card_author {
+	    margin-bottom: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	    span {
+	        margin: 0 10px 0 5px;
+	        font: 14px 'PT_Sans-Web-Bold';
+	    }
+	}
+
+	.card_btn-wrap {
+	    margin-bottom: 10px;
+	}
+
+	.card_btn-wrap .card_btn_l {
+	    @include like_btn_sm;
+	    margin-right: 10px;
+	}
+
+	.card_btn-wrap .card_btn_p {
+	    @include repost_btn_sm;
+	}
+
+	.your_comment_form {
+	    position: relative;
+	    width: 242;
+	    height: 53px;
+	    padding: 10px 5px;
+	    span {
+	        position: absolute;
+	        top: 16px;
+	        right: 15px;
+	        background: url(../images/enter_blue_icon.png);
+	        width: 21px;
+	        height: 22px;
+	        cursor: pointer;
+	    }
+	    input {
+	        padding: 10px;
+	        width: 232px;
+	        height: 32px;
+	        border: none;
+	    }
+	    input[value] {
+	        font: 14px 'PT_Sans-Web-Italic';
+	    }
+	}
+
+	// end album_cards
+
+	// end photogalary content
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	// photogalary content
+
+	.photogalary_content {
+	    padding-bottom: 255px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.photogalary_content p {
+	    line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.photogalary_content_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 25px;
+	}
+
+	// photogalary_content navigation
+
+	.photogalary_navigation {
+	    @include navigation_sm;
+	    .cont_menu {
+	        ul {
+	            li {
+	                a {
+	                    padding-top: 10px;
+	                    line-height: 1.1;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// aside navigation
+
+	.photogalary_navigation {
+
+	    .p_c_makekorf-wrap {
+	        position: relative;
+	        margin-top: 110px;
+	        text-align: center;
+	        &:before {
+	            position: absolute;
+	            top: -90px;
+	            left: 18px;
+	            width: 70px;
+	            height: 74px;
+	            content: '';
+	            background: url(../images/beverages_label-mid.png);
+	        }
+	    }
+
+	    .p_c_makekorf-wrap h4 {
+	        margin-bottom: 10px;
+	        font: 14px 'BebasNeueBold';
+	        color: #f26259;
+	    }
+
+	    .p_c_makekorf-wrap a {
+	        position: relative;
+	        font: 14px 'PT_Sans-Web-Italic';
+	        color: #0f65bd;
+	        text-decoration: none;
+	        border-bottom: 1px dashed #0f65bd;
+	        &:after {
+	            position: absolute;
+	            bottom: -17px;
+	            left: 6px;
+	            width: 57px;
+	            height: 5px;
+	            content: '';
+	            background: url(../images/dashed_line-art.png);
+	        }
+	    }
+	}
+
+	// end aside navigation
+
+	// album_name_title
+
+	.album_name_title {
+	    margin-bottom: 20px;
+	}
+
+	.album_name_title h3 {
+	    margin-top: -5px;
+	    margin-bottom: 15px;
+	    font: 34px 'BebasNeueBold';
+	}
+
+	.album_name_title p {
+	    margin-bottom: 15px;
+	}
+
+	.album_name_title a {
+	    position: relative;
+	    display: block;
+	    width: 180px;
+	    height: 40px;
+	    color: #fff;
+	    padding-left: 30px;
+	    text-decoration: none;
+	    line-height: 40px;
+	    text-align: center;
+	    &:before {
+	        content: '';
+	        position: absolute;
+	        top: 10px;
+	        left: 12px;
+	        background: url(../images/edit_your_photo_icon.png);
+	        width: 20px;
+	        height: 20px;
+	    }
+	}
+
+	// end album_name_title
+	
+	.album_search_form {
+	    margin-bottom: 20px;
+	}
+
+	.album_search_form form {
+	    width: 100%;
+	    height: 100%;
+	    padding: 20px 11px;
+	}
+
+	.search_photo {
+	    position: relative;
+	    display: inline-block;
+	    padding-top: 20px;
+	    margin-right: 10px;
+	    span {
+	        position: absolute;
+	        top: -7px;
+	        left: 0;
+	        font: 16px 'PT_Sans-Web-Bold';
+	    }
+	    input {
+	        width: 150px;
+	        height: 32px;
+	        border: none;
+	        padding: 10px 5px;
+	    }
+	    input[value] {
+	        font: 12px 'PT_Sans-Web-Italic';
+	    }
+	}
+
+	.catagory1 {
+	    position: relative;
+	    display: inline-block;
+	    margin-right: 10px;
+	    span {
+	        position: absolute;
+	        top: -25px;
+	        left: 0;
+	        font: 14px 'PT_Sans-Web-Regular';
+	        display: inline-block;
+	    }
+	    a {
+	        @include input_sm;
+			padding-left: 10px;
+	    }
+	}
+
+	.catagory2 {
+	    position: relative;
+	    display: inline-block;
+	    margin-right: 10px;
+	    span {
+	        position: absolute;
+	        top: -25px;
+	        left: 0;
+	        font: 14px 'PT_Sans-Web-Regular';
+	        display: inline-block;
+	    }
+	    a {
+	        @include input_sm;
+	    }
+	}
+
+	.al_search_btn {
+        @include order_btn_sm;
+	    display: inline-block;
+	    width: 100px;
+
+	}
+
+	// end album_search_form
+
+	// album_cards
+
+	.album_cards {
+	    @include pie-clearfix;
+	}
+
+	.album_cards ul {
+	    margin-left: -50px;
+	    li {
+	        float: left;
+	        margin-left: 50px;
+	        margin-bottom: 20px;
+	    }
+	}
+
+	.album_cards .a_card {
+        width: 242px;
+        height: 100%;
+        img {
+        	width: 242px;
+        }
+	}
+
+	.card_img_wrap {
+	    position: relative;
+	    width: 242px;
+	    height: 230px;
+	    &:hover:after {
+	    	content: '';
+	        position: absolute;
+	        top: 25px;
+	        left: 97px;
+	        cursor: pointer;
+	        background: url(../images/card_mid_like_icon.png);
+	        width: 47px;
+	        height: 47px;
+	    }
+	}
+
+	.card_author {
+	    margin-bottom: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	    span {
+	        margin: 0 10px 0 5px;
+	        font: 14px 'PT_Sans-Web-Bold';
+	    }
+	}
+
+	.card_btn-wrap {
+	    margin-bottom: 10px;
+	}
+
+	.card_btn-wrap .card_btn_l {
+	    @include like_btn_sm;
+	    margin-right: 10px;
+	}
+
+	.card_btn-wrap .card_btn_p {
+	    @include repost_btn_sm;
+	}
+
+	.your_comment_form {
+	    position: relative;
+	    width: 242;
+	    height: 53px;
+	    padding: 10px 5px;
+	    span {
+	        position: absolute;
+	        top: 16px;
+	        right: 15px;
+	        background: url(../images/enter_blue_icon.png);
+	        width: 21px;
+	        height: 22px;
+	        cursor: pointer;
+	    }
+	    input {
+	        padding: 10px;
+	        width: 232px;
+	        height: 32px;
+	        border: none;
+	    }
+	    input[value] {
+	        font: 14px 'PT_Sans-Web-Italic';
+	    }
+	}
+
+	// end album_cards
+
+	// end photogalary content
+}
+
+@media (max-width: 767px) {
+
+	// photogalary content
+
+	.photogalary_content {
+	    padding-bottom: 255px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.photogalary_content p {
+	    line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.photogalary_content_bread-crumbs {
+	    width: 290px;
+        margin: 0 auto;
+
+        @include breadcrumbs_lg;
+        margin-bottom: 20px;
+
+        .br_vac {
+	        color: #0f65bd;
+	        text-decoration: none;
+	        display: block;
+	        margin-top: 10px;
+	    }
+	}
+
+	// photogalary_content navigation
+
+	.photogalary_navigation {
+	    @include navigation_xs;
+	    width: 290px;
+        margin: 0 auto;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+                    border-bottom: none;
+                    a {
+                        padding-top: 0;
+                        line-height: 55px;
+                    }
+                }
+	            
+	        }
+	    }
+	}
+
+	// aside navigation
+
+	.photogalary_navigation {
+
+	    .p_c_makekorf-wrap {
+	        position: relative;
+            width: 290px;
+	        margin-top: 100px;
+	        text-align: center;
+	        &:before {
+	            position: absolute;
+	            top: -80px;
+	            left: 120px;
+	            width: 70px;
+	            height: 74px;
+	            content: '';
+	            background: url(../images/beverages_label-mid.png);
+	        }
+	    }
+
+	    .p_c_makekorf-wrap h4 {
+	        margin-bottom: 10px;
+	        font: 14px 'BebasNeueBold';
+	        color: #f26259;
+	    }
+
+	    .p_c_makekorf-wrap a {
+	        position: relative;
+	        font: 14px 'PT_Sans-Web-Italic';
+	        color: #0f65bd;
+	        text-decoration: none;
+	        border-bottom: 1px dashed #0f65bd;
+	        &:after {
+	            position: absolute;
+	            bottom: -17px;
+	            left: 30px;
+	            width: 57px;
+	            height: 5px;
+	            content: '';
+	            background: url(../images/dashed_line-art.png);
+	        }
+	    }
+	}
+
+	// end aside navigation
+
+	// album_name_title
+
+	.album_name_title {
+		width: 290px;
+        margin: 0 auto;
+	    margin-top: 35px;
+	    margin-bottom: 20px;
+        text-align: center;
+	}
+
+	.album_name_title h3 {
+	    margin-bottom: 10px;
+	    font: 24px 'BebasNeueBold';
+	}
+
+	.album_name_title p {
+	    margin-bottom: 15px;
+	}
+
+	.album_name_title a {
+	    position: relative;
+	    display: inline-block;
+	    width: 150px;
+	    height: 32px;
+	    color: #fff;
+	    padding-left: 30px;
+	    text-decoration: none;
+	    line-height: 32px;
+	    text-align: center;
+	    &:before {
+	        content: '';
+	        position: absolute;
+	        top: 6px;
+	        left: 12px;
+	        background: url(../images/edit_your_photo_icon.png);
+	        width: 20px;
+	        height: 20px;
+	    }
+	}
+
+	// end album_name_title
+	
+	.album_search_form {
+	    margin-bottom: 25px;
+	}
+
+	.album_search_form form {
+	    width: 290px;
+	    margin: 0 auto;
+	    height: 100%;
+	    padding: 20px 15px;
+	    text-align: center;
+	}
+
+	.search_photo {
+	    position: relative;
+	    display: block;
+	    padding-top: 20px;
+	    margin-bottom: 35px;
+	    span {
+	        position: absolute;
+	        top: -7px;
+	        left: 41%;
+	        font: 16px 'PT_Sans-Web-Bold';
+	    }
+	    input {
+	        width: 100%;
+	        height: 32px;
+	        border: none;
+	        padding: 5px 5px;
+	    }
+	    input[value] {
+	    	text-align: center;
+	        font: 12px 'PT_Sans-Web-Italic';
+	    }
+	}
+
+	.catagory1 {
+	    position: relative;
+	    display: block;
+	    margin-bottom: 35px;
+	    span {
+	        position: absolute;
+	        top: -25px;
+	        left: 0;
+	        font: 14px 'PT_Sans-Web-Regular';
+	        display: inline-block;
+	    }
+	    a {
+	        @include input_sm;
+	        width: 100%;
+	    }
+	}
+
+	.catagory2 {
+	    position: relative;
+	    display: block;
+	    margin-bottom: 20px;
+	    span {
+	        position: absolute;
+	        top: -25px;
+	        left: 0;
+	        font: 14px 'PT_Sans-Web-Regular';
+	        display: inline-block;
+	    }
+	    a {
+	        @include input_sm;
+	        width: 100%;
+	    }
+	}
+
+	.al_search_btn {
+        @include order_btn_sm;
+	    display: inline-block;
+	    width: 100px;
+
+	}
+
+	// end album_search_form
+
+	// album_cards
+
+	.album_cards {
+		width: 290px;
+		margin: 0 auto;
+	}
+
+	.album_cards ul {
+	    li {
+	        margin-bottom: 25px;
+	    }
+	}
+
+	.album_cards .a_card {
+        width: 290px;
+        height: 100%;
+        img {
+        	width: 290px;
+        }
+	}
+
+	.card_img_wrap {
+	    position: relative;
+        width: 290px;
+        height: 100%;
+	    &:hover:after {
+	    	content: '';
+	        position: absolute;
+	        top: 25px;
+	        left: 112px;
+	        cursor: pointer;
+	        background: url(../images/card_big_like_icon.png);
+	        width: 67px;
+	        height: 67px;
+
+	    }
+	}
+
+	.card_author {
+	    margin-bottom: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	    span {
+	        margin: 0 10px 0 5px;
+	        font: 16px 'PT_Sans-Web-Bold';
+	    }
+	}
+
+	.card_btn-wrap {
+	    margin-bottom: 10px;
+	}
+
+	.card_btn-wrap .card_btn_l {
+	    @include like_btn;
+	    margin-right: 6px;
+	}
+
+	.card_btn-wrap .card_btn_p {
+	    @include repost_btn;
+	}
+
+	.your_comment_form {
+	    position: relative;
+	    width: 291px;
+	    height: 53px;
+	    padding: 10px 5px;
+	    span {
+	        position: absolute;
+	        top: 17px;
+	        right: 15px;
+	        background: url(../images/enter_blue_icon.png);
+	        width: 21px;
+	        height: 22px;
+	        cursor: pointer;
+	    }
+	    input {
+	        padding: 10px;
+	        width: 281px;
+	        height: 34px;
+	        border: none;
+	    }
+	    input[value] {
+	        font: 16px 'PT_Sans-Web-Italic';
+	    }
+	}
+
+	// end album_cards
+
+}
+
+// end photogalary content

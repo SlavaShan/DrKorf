@@ -1,0 +1,716 @@
+@media (min-width: 1200px) {
+
+	.yourkorf_content {
+	    padding-bottom: 287px;
+	    margin-top: 73px;
+	}
+
+	// form 
+	
+	.left_side-form h3 {
+	    margin-bottom: 23px;
+	    font: 50px 'BebasNeueBold';
+	}
+	
+	.left_side-form p {
+	    margin-bottom: 45px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	    line-height: 1.5;
+	}
+
+	.left_side-form form {
+	    position: relative;
+	    width: 555px;
+	    height: 682px;
+	    padding: 25px 20px 10px;
+	    background-color: #f4f4f5;
+	     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    &:after {
+	        position: absolute;
+	        bottom: -25px;
+	        left: 0;
+	        // width: 555px;
+	        // height: 25px;
+	        content: '';
+	        // background: url('../images/y_f_textarea-shadow.png');
+	    }
+	}
+	
+	.left_side-form .y_f_upload-photo,
+	.y_f_upload-text,
+	.y_f-choose-flavor,
+	.y_f_number-bottles {
+	    margin-bottom: 15px;
+	    font: 20px 'PT_Sans-Web-Bold';
+	}
+
+	.left_side-form .upload_btn {
+	    margin-bottom: 32px;
+
+	    @include upload_btn;
+	}
+	
+	.left_side-form #y_f_textarea {
+	    width: 100% !important;
+	    height: 96px !important;
+	    padding: 10px;
+	    margin-bottom: 28px;
+	}
+
+	.left_side-form  .y_f_flavor {
+	    @include input;
+	    margin-bottom: 21px;
+	}
+	
+	.left_side-form .num-bottle {
+	    width: 165px;
+	    height: 36px;
+	    padding: 10px;
+	    margin-bottom: 34px;
+	}
+
+	.left_side-form .order_btn {
+	    margin-bottom: 30px;
+
+	    @include order_btn;
+	}
+	
+	.left_side-form .y_f_note {
+	    font: 14px 'PT_Sans-Web-Italic';
+	    span {
+	        font: 14px 'PT_Sans-Web-BoldItalic';
+	    }
+	}
+	
+	// end form
+	
+	// y_c_bottle
+
+	.y_c_bottle {
+	    position: relative;
+	    padding-top: 45px;
+	    padding-left: 5px;
+	}
+
+	.y_c_bottle a {
+	    position: absolute;
+	    top: 300px;
+	    left: 99px;
+	    font: 20px 'BebasNeueBold';
+	    text-indent: 2px;
+	}
+
+	// end y_c_bottle
+
+	// y_c_bottle-thumb
+
+	.y_c_bottle-thumb {
+	    padding-top: 120px;
+	}
+
+	.y_c_bottle-thumb .y_c_b-thumb-title {
+	    margin-bottom: 40px;
+	    font: 20px 'PT_Sans-Web-Bold';
+	    text-align: center;
+	}
+
+	.y_c_bottle-thumb {
+	    ul {
+	        li {
+	            float: left;
+	            width: 130px;
+	            height: 215px;
+	            a {
+	                position: relative;
+	                span {
+	                    position: absolute;
+	                    bottom: 10px;
+	                    left: 25px;
+	                    font: 16px 'PT_Sans-Web-Regular';
+	                }
+	            }
+	            .b-thumb-icon-1 {
+	                display: block;
+	                width: 130px;
+	                height: 215px;
+	                background: url('../images/bottle_small_icon1.png') 45px 35px no-repeat;
+	            }
+	            .b-thumb-icon-2 {
+	                display: block;
+	                width: 130px;
+	                height: 215px;
+	                background: url('../images/bottle_small_icon2.png') 45px 35px no-repeat;
+	            }
+	            .b-thumb-icon-3 {
+	                display: block;
+	                width: 130px;
+	                height: 215px;
+	                background: url('../images/bottle_small_icon3.png') 45px 35px no-repeat;
+	            }
+	            .b-thumb-icon-4 {
+	                display: block;
+	                width: 130px;
+	                height: 215px;
+	                background: url('../images/bottle_small_icon4.png') 45px 35px no-repeat;
+	            }
+	            &:hover {
+	                background-color: #f4f4f5;
+	            }
+	        }
+	    }
+	}
+
+	// end y_c_bottle-thumb
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	.yourkorf_content {
+	    padding-bottom: 287px;
+	    margin-top: 55px;
+	}
+
+	// form 
+	
+	.left_side-form h3 {
+	    margin-bottom: 18px;
+	    font: 42px 'BebasNeueBold';
+	}
+	
+	.left_side-form p {
+	    margin-bottom: 30px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	    line-height: 1.5;
+	}
+
+	.left_side-form form {
+	    position: relative;
+	    width: 455px;
+	    height: 642px;
+	    padding: 25px 20px 10px;
+	    background-color: #f4f4f5;
+	    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    &:after {
+	        position: absolute;
+	        bottom: -25px;
+	        left: 0;
+	        // width: 555px;
+	        // height: 25px;
+	        content: '';
+	        // background: url('../images/y_f_textarea-shadow.png');
+	    }
+	}
+	
+	.left_side-form .y_f_upload-photo,
+	.y_f_upload-text,
+	.y_f-choose-flavor,
+	.y_f_number-bottles {
+	    margin-bottom: 15px;
+	    font: 18px 'PT_Sans-Web-Bold';
+	}
+
+	.left_side-form .upload_btn {
+	    margin-bottom: 24px;
+
+	    @include upload_btn;
+	}
+	
+	.left_side-form #y_f_textarea {
+	    width: 100% !important;
+	    height: 96px !important;
+	    padding: 10px;
+	    margin-bottom: 23px;
+	}
+
+	.left_side-form  .y_f_flavor {
+	    @include input;
+	    margin-bottom: 18px;
+	}
+	
+	.left_side-form .num-bottle {
+	    width: 165px;
+	    height: 36px;
+	    padding: 10px;
+	    margin-bottom: 25px;
+	}
+
+	.left_side-form .order_btn {
+	    margin-bottom: 25px;
+
+	    @include order_btn;
+	}
+	
+	.left_side-form .y_f_note {
+	    font: 14px 'PT_Sans-Web-Italic';
+	    span {
+	        font: 14px 'PT_Sans-Web-BoldItalic';
+	    }
+	}
+	
+	// end form
+
+	// y_c_bottle
+
+	.y_c_bottle {
+	    position: relative;
+	    padding-top: 45px;
+	    padding-left: 5px;
+	}
+	
+	.y_c_bottle img {
+		width: 213px;
+	}
+
+	.y_c_bottle a {
+	    position: absolute;
+	    top: 270px;
+	    left: 87px;
+	    font: 18px 'BebasNeueBold';
+	    text-indent: 2px;
+	}
+
+	// end y_c_bottle
+
+	// y_c_bottle-thumb
+
+	.y_c_bottle-thumb {
+	    padding-top: 120px;
+	}
+
+	.y_c_bottle-thumb .y_c_b-thumb-title {
+	    margin-bottom: 30px;
+	    font: 18px 'PT_Sans-Web-Bold';
+	    text-align: center;
+	}
+
+	.y_c_bottle-thumb {
+	    ul {
+	        li {
+	            float: left;
+	            width: 105px;
+	            height: 200px;
+	            a {
+	                position: relative;
+	                span {
+	                    position: absolute;
+	                    bottom: 10px;
+	                    left: 14px;
+	                    font: 14px 'PT_Sans-Web-Regular';
+	                }
+	            }
+	            .b-thumb-icon-1 {
+	                display: block;
+	                width: 105px;
+	                height: 200px;
+	                background: url('../images/bottle_small_icon1.png') 32px 20px no-repeat;
+	            }
+	            .b-thumb-icon-2 {
+	                display: block;
+	                width: 105px;
+	                height: 200px;
+	                background: url('../images/bottle_small_icon2.png') 32px 20px no-repeat;
+	            }
+	            .b-thumb-icon-3 {
+	                display: block;
+	                width: 105px;
+	                height: 200px;
+	                background: url('../images/bottle_small_icon3.png') 32px 20px no-repeat;
+	            }
+	            .b-thumb-icon-4 {
+	                display: block;
+	                width: 105px;
+	                height: 200px;
+	                background: url('../images/bottle_small_icon4.png') 32px 20px no-repeat;
+	            }
+	            &:hover {
+	                background-color: #f4f4f5;
+	            }
+	        }
+	    }
+	}
+
+	// end y_c_bottle-thumb
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	.yourkorf_content {
+	    padding-bottom: 260px;
+	    margin-top: 40px;
+	}
+
+	// form 
+	
+	.left_side-form h3 {
+	    margin-bottom: 12px;
+	    font: 32px 'BebasNeueBold';
+	}
+	
+	.left_side-form p {
+	    margin-bottom: 20px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	    line-height: 1.5;
+	}
+
+	.left_side-form form {
+	    position: relative;
+	    width: 345px;
+	    height: 570px;
+	    padding: 20px 15px;
+	    background-color: #f4f4f5;
+	    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    &:after {
+	        position: absolute;
+	        bottom: -25px;
+	        left: 0;
+	        // width: 555px;
+	        // height: 25px;
+	        content: '';
+	        // background: url('../images/y_f_textarea-shadow.png');
+	    }
+	}
+	
+	.left_side-form .y_f_upload-photo,
+	.y_f_upload-text,
+	.y_f-choose-flavor,
+	.y_f_number-bottles {
+	    margin-bottom: 12px;
+	    font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	.left_side-form .upload_btn {
+	    margin-bottom: 20px;
+
+	    @include upload_btn_sm;
+	}
+	
+	.left_side-form #y_f_textarea {
+	    width: 100% !important;
+	    height: 96px !important;
+	    padding: 10px;
+	    margin-bottom: 18px;
+	}
+
+	.left_side-form  .y_f_flavor {
+	    @include input_sm;
+	    margin-bottom: 18px;
+	}
+	
+	.left_side-form .num-bottle {
+	    width: 140px;
+	    height: 32px;
+	    padding: 10px;
+	    margin-bottom: 20px;
+	}
+
+	.left_side-form .order_btn {
+	    margin-bottom: 20px;
+
+	    @include order_btn_sm;
+	}
+	
+	.left_side-form .y_f_note {
+	    font: 13px 'PT_Sans-Web-Italic';
+	    span {
+	        font: 13px 'PT_Sans-Web-BoldItalic';
+	    }
+	}
+	
+	// end form
+
+	// y_c_bottle
+
+	.y_c_bottle {
+	    position: relative;
+	    padding-top: 35px;
+	    padding-left: 5px;
+	}
+	
+	.y_c_bottle img {
+		width: 157px;
+	}
+
+	.y_c_bottle a {
+	    position: absolute;
+	    top: 195px;
+	    left: 62px;
+	    font: 14px 'BebasNeueBold';
+	    text-indent: 2px;
+	}
+
+	// end y_c_bottle
+
+	// y_c_bottle-thumb
+
+	.y_c_bottle-thumb {
+	    padding-top: 80px;
+	}
+
+	.y_c_bottle-thumb .y_c_b-thumb-title {
+	    margin-bottom: 20px;
+	    font: 16px 'PT_Sans-Web-Bold';
+	    text-align: center;
+	}
+
+	.y_c_bottle-thumb {
+	    ul {
+	        li {
+	            float: left;
+	            width: 78px;
+	            height: 170px;
+	            a {
+	                position: relative;
+	                span {
+	                    position: absolute;
+	                    bottom: 15px;
+	                    left: 5px;
+	                    font: 12px 'PT_Sans-Web-Regular';
+	                }
+	            }
+	            .b-thumb-icon-1 {
+	                display: block;
+	                width: 78px;
+	                height: 170px;
+	                background: url('../images/bottle_small_icon1-mid.png') 24px 17px no-repeat;
+	            }
+	            .b-thumb-icon-2 {
+	                display: block;
+	                width: 78px;
+	                height: 170px;
+	                background: url('../images/bottle_small_icon2-mid.png') 24px 20px no-repeat;
+	            }
+	            .b-thumb-icon-3 {
+	                display: block;
+	                width: 78px;
+	                height: 170px;
+	                background: url('../images/bottle_small_icon3-mid.png') 24px 17px no-repeat;
+	            }
+	            .b-thumb-icon-4 {
+	                display: block;
+	                width: 78px;
+	                height: 170px;
+	                background: url('../images/bottle_small_icon4-mid.png') 24px 17px no-repeat;
+	            }
+	            &:hover {
+	                background-color: #f4f4f5;
+	            }
+	        }
+	    }
+	}
+
+	// end y_c_bottle-thumb
+
+}
+
+
+@media (max-width: 767px) {
+
+	.yourkorf_content {
+	    padding-bottom: 260px;
+	    margin-top: 20px;
+	}
+
+	// form 
+	
+	.left_side-form {
+		width: 290px;
+		margin: 0 auto;
+	    text-align: center;
+	}
+
+	.left_side-form h3 {
+	    margin-bottom: 12px;
+	    font: 24px 'BebasNeueBold';
+	}
+	
+	.left_side-form p {
+	    margin-bottom: 20px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	    line-height: 1.5;
+	}
+
+	.left_side-form form {
+	    position: relative;
+	    width: 290px;
+	    height: 535px;
+	    padding: 15px;
+	    background-color: #f4f4f5;
+	    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    &:after {
+	        position: absolute;
+	        bottom: -25px;
+	        left: 0;
+	        // width: 555px;
+	        height: 25px;
+	        content: '';
+	        // background: url('../images/y_f_textarea-shadow.png');
+	    }
+	}
+	
+	.left_side-form .y_f_upload-photo,
+	.y_f_upload-text,
+	.y_f-choose-flavor,
+	.y_f_number-bottles {
+	    margin-bottom: 12px;
+	    font: 12px 'PT_Sans-Web-Bold';
+	}
+
+	.left_side-form .upload_btn {
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	    text-align: left;
+
+	    @include upload_btn_sm;
+	}
+	
+	.left_side-form #y_f_textarea {
+	    width: 100% !important;
+	    height: 96px !important;
+	    padding: 10px;
+	    margin-bottom: 18px;
+	}
+
+	.left_side-form  .y_f_flavor {
+	    @include input_sm;
+	    margin: 0 auto;
+	    margin-bottom: 18px;
+	    text-align: left;
+	}
+	
+	.left_side-form .num-bottle {
+	    width: 140px;
+	    height: 32px;
+	    padding: 10px;
+	    margin-bottom: 20px;
+	}
+
+	.left_side-form .order_btn {
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+
+	    @include order_btn_sm;
+	}
+	
+	.left_side-form .y_f_note {
+	    font: 12px 'PT_Sans-Web-Italic';
+	    span {
+	        font: 12px 'PT_Sans-Web-BoldItalic';
+	    }
+	}
+	
+	// end form
+
+	// y_c_bottle
+
+	.y_c_bottle {
+		width: 290px;
+		margin: 0 auto;
+	    position: relative;
+	    padding-top: 20px;
+	    padding-left: 5px;
+	    text-align: center;
+	}
+	
+	.y_c_bottle img {
+		width: 120px;
+	}
+
+	.y_c_bottle a {
+	    position: absolute;
+	    top: 155px;
+	    left: 130px;
+	    font: 12px 'BebasNeueBold';
+	    text-indent: 2px;
+	}
+
+	// end y_c_bottle
+
+	// y_c_bottle-thumb
+
+	.y_c_bottle-thumb {
+	    padding-top: 20px;
+	    width: 300px;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+
+	.y_c_bottle-thumb .y_c_b-thumb-title {
+	    margin-bottom: 10px;
+	    font: 12px 'PT_Sans-Web-Bold';
+	    text-align: center;
+	}
+
+	.y_c_bottle-thumb {
+	    ul {
+	        li {
+	            float: left;
+	            width: 72px;
+	            height: 170px;
+	            a {
+	                position: relative;
+	                span {
+	                    position: absolute;
+	                    bottom: 15px;
+	                    left: 5px;
+	                    font: 12px 'PT_Sans-Web-Regular';
+	                }
+	            }
+	            .b-thumb-icon-1 {
+	                display: block;
+	                width: 72px;
+	                height: 170px;
+	                background: url('../images/bottle_small_icon1-mid.png') 24px 17px no-repeat;
+	            }
+	            .b-thumb-icon-2 {
+	                display: block;
+	                width: 72px;
+	                height: 170px;
+	                background: url('../images/bottle_small_icon2-mid.png') 24px 20px no-repeat;
+	            }
+	            .b-thumb-icon-3 {
+	                display: block;
+	                width: 72px;
+	                height: 170px;
+	                background: url('../images/bottle_small_icon3-mid.png') 24px 17px no-repeat;
+	            }
+	            .b-thumb-icon-4 {
+	                display: block;
+	                width: 72px;
+	                height: 170px;
+	                background: url('../images/bottle_small_icon4-mid.png') 24px 17px no-repeat;
+	            }
+	            &:hover {
+	                background-color: #f4f4f5;
+	            }
+	        }
+	    }
+	}
+
+	// end y_c_bottle-thumb
+
+}
+
+
+	

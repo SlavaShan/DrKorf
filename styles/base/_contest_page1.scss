@@ -1,0 +1,195 @@
+// contest page
+
+.contest_content {
+    margin-top: 70px;
+    padding-top: 5px;
+    padding-bottom: 255px;
+}
+
+.contest_acticle-1,
+.contest_acticle-2 {
+    margin-bottom: 28px;
+    header {
+        h3 {
+            margin-bottom: 25px;
+            font: 50px 'BebasNeueBold';
+            color: #2b3942;
+        }
+    }
+    aside {
+        margin-bottom: 45px;
+        p {
+            margin-bottom: 20px;
+            font: 16px 'PT_Sans-Web-Regular';
+            color: #2b3942;
+        }
+        img {
+            margin-bottom: 38px;
+        }
+        .read_more-btn {
+            position: relative;
+            padding-left: 20px;
+            a {
+                font: 20px 'PT_Sans-Web-Bold';
+                color: #0f65bd;
+                text-decoration: none;
+                border-bottom: 1px dashed #0f65bd;
+            }
+            &:before {
+                position: absolute;
+                top: 10px;
+                left: 0;
+                width: 9px;
+                height: 8px;
+                content: '';
+                background: url('../images/dropout_icon.png');
+            }
+        }
+    }
+
+
+    footer {
+        margin-bottom: 40px;
+
+        @include pie-clearfix;
+        span {
+            float: left;
+            font: 20px 'PT_Sans-Web-Bold';
+            color: #2b3942;
+        }
+        ul {
+            li {
+                float: left;
+                margin-top: 4px;
+                margin-left: 10px;
+                .soc_vk-sm {
+                    display: block;
+                    width: 19px;
+                    height: 19px;
+                    background: url(../images/vk_small_icon.png);
+                    &:hover {
+                        background: url(../images/vk_small_icon-hover.png);
+                    }
+                }
+                .soc_odnoklasniki-sm {
+                    display: block;
+                    width: 19px;
+                    height: 20px;
+                    background: url(../images/odnoklasniki_small_icon.png);
+                    &:hover {
+                        background: url(../images/odnoklasniki_small_icon-hover.png);
+                    }
+                }
+                .soc_insta-sm {
+                    display: block;
+                    width: 19px;
+                    height: 20px;
+                    background: url(../images/insta_small_icon.png);
+                    &:hover {
+                        background: url(../images/insta_small_icon-hover.png);
+                    }
+                }
+                .soc_twitter-sm {
+                    display: block;
+                    width: 19px;
+                    height: 20px;
+                    background: url(../images/twitter_small_icon.png);
+                    &:hover {
+                        background: url(../images/twitter_small_icon-hover.png);
+                    }
+                }
+                .soc_facebook-sm {
+                    display: block;
+                    width: 19px;
+                    height: 20px;
+                    background: url(../images/facebook_small_icon.png);
+                    &:hover {
+                        background: url(../images/facebook_small_icon-hover.png);
+                    }
+                }
+                .soc_google-sm {
+                    display: block;
+                    width: 19px;
+                    height: 20px;
+                    background: url(../images/google_small_icon.png);
+                    &:hover {
+                        background: url(../images/google_small_icon-hover.png);
+                    }
+                }
+            }
+        }
+    }
+    hr {
+        height: 1px;
+        background: #e9e9e9;
+        border: none;
+    }
+}
+
+.read_more_blc {
+    // display: none;
+}
+
+
+
+
+// contest_acticle-2
+
+.contest_acticle-2 aside {
+    margin-bottom: 30px;
+}
+
+.contest_acticle-2 aside p {
+    line-height: 1.4;
+}
+
+.contest_acticle-2 aside img {
+    margin-bottom: 15px;
+}
+
+.contest_acticle-2 .read_more_blc p {
+    // line-height: 1.8;
+}
+
+.contest_acticle-2 aside .article_btn {
+    // margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contest_acticle-2 aside .article_btn .upload_btn {
+    @include upload_btn;
+}
+
+.contest_acticle-2 aside .read_more-btn {
+    position: relative;
+    padding-left: 20px;
+    &:before {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 9px;
+        height: 8px;
+        content: '';
+        background: url('../images/folding_icon.png');
+    }
+}
+
+
+// end contest page
+
+
+// dop class
+.read_more-btn-up {
+    position: relative;
+    padding-left: 20px;
+    &:before {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 9px;
+        height: 8px;
+        content: '';
+        background: url('../images/folding_icon.png');
+    }
+}
+// dop class

@@ -1,0 +1,91 @@
+
+// album_name_title
+
+.album_name_title h3 {
+    color: #0f65bd;
+}
+
+.album_name_title a {
+    -webkit-border-radius: 4px 3px 3px 4px/3px;
+    -moz-border-radius: 4px 3px 3px 4px/3px;
+    border-radius: 4px 3px 3px 4px/3px;
+    background-color: #0f65bd;
+    -webkit-box-shadow: inset 0 -3px 1px rgba(14,76,139,.75);
+    -moz-box-shadow: inset 0 -3px 1px rgba(14,76,139,.75);
+    box-shadow: inset 0 -3px 1px rgba(14,76,139,.75);
+}
+
+// end album_name_title
+
+// album_search_form
+
+.album_search_form form {
+    background-color: #f4f4f5;
+}
+
+.search_photo {
+    input {
+        -webkit-border-radius: 2px/3px;
+        -moz-border-radius: 2px/3px;
+        border-radius: 2px/3px;
+        background-color: #fff;
+        -webkit-box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+        -moz-box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+        box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+    }
+    input[value] {
+        color: #939394;
+    }
+}
+
+.al_search_btn {
+    color: #fff;
+    text-decoration: none;
+    -webkit-border-radius: 3px/2px;
+    -moz-border-radius: 3px/2px;
+    border-radius: 3px/2px;
+    background-color: #0f65bd;
+    -webkit-box-shadow: inset 0 -3px 1px rgba(14,76,139,.75);
+    -moz-box-shadow: inset 0 -3px 1px rgba(14,76,139,.75);
+    box-shadow: inset 0 -3px 1px rgba(14,76,139,.75);
+}
+
+// end album_search_form
+
+// album_cards
+
+.your_comment_form {
+    background-color: #f4f4f5;
+    input {
+        -webkit-border-radius: 3px/2px;
+        -moz-border-radius: 3px/2px;
+        border-radius: 3px/2px;
+        background-color: #fff;
+        -webkit-box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+        -moz-box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+        box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+    }
+    input[value] {
+        color: #939394;
+    }
+}
+
+// end album_cards
+
+// end photogalary content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

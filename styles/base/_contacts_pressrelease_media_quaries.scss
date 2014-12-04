@@ -1,0 +1,556 @@
+@media (min-width: 1200px) {
+
+	// contacts_pressrelease_content
+
+	.contacts_pressrelease_content {
+	    padding-bottom: 275px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_pressrelease_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_pressrelease_bread-crumbs {
+	    @include breadcrumbs_lg;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_pressrelease_navigation {
+	    @include navigation_lg;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 75px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// press_content
+
+	.press_content {
+	    padding-top: 5px;
+	    margin-top: -10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.press_content p {
+	    line-height: 1.5;
+	}
+
+	.press_acticle header {
+	    margin-bottom: 23px;
+	}
+
+	.press_acticle header h3 {
+	    margin-top: -4px;
+	    font: 50px 'BebasNeueBold';
+	}
+
+	.press_acticle header p span {
+	    &:first-child {
+	        font: 16px 'PT_Sans-Web-Italic';
+	    }
+	    &:last-child {
+	        font: 16px 'PT_Sans-Web-BoldItalic';
+	    }
+	}
+
+	.press_acticle aside {
+	    margin-bottom: 25px;
+	}
+
+	.press_acticle .p_art_title p {
+	    margin-bottom: 25px;
+	}
+
+	.press_acticle .p_art_title img {
+	    margin-right: 35px;
+	    margin-bottom: 25px;
+	}
+
+	.press_acticle .p_read_more-blc {
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_read_more-blc-cnt p {
+	    margin-bottom: 15px;
+	}
+
+	// .read_more-blc-cnt {
+	//     display: none;
+	// }
+
+	.press_acticle .p_read_more-blc .p_r_m_btn-wrap {
+	    position: relative;
+	    padding-left: 20px;
+	    a {
+	        font: 20px 'PT_Sans-Web-Bold';
+	    }
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/folding_icon.png');
+	    }
+	}
+
+	// dop class
+	.press_acticle .p_read_more-blc .p_r_m_btn-wrap-up {
+	    position: relative;
+	    padding-left: 20px;
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/dropout_icon.png');
+	    }
+	}
+	// dop class
+	
+	.press_acticle footer {
+		@include beverages_post_social_icons;
+	    padding-left: 0;
+    }
+	.press_acticle hr {
+	    margin-bottom: 34px;
+	}
+
+	// end press page
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	// contacts_pressrelease_content
+
+	.contacts_pressrelease_content {
+	    padding-bottom: 255px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_pressrelease_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_pressrelease_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 35px;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_pressrelease_navigation {
+	    @include navigation_md;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 65px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// press_content
+
+	.press_content {
+	    padding-top: 5px;
+	    margin-top: -10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.press_acticle {
+	    margin-bottom: 40px;
+	}
+
+	.press_acticle header {
+	    margin-bottom: 20px;
+	}
+
+	.press_acticle header h3 {
+	    margin-top: -3px;
+	    font: 42px 'BebasNeueBold';
+	}
+
+	.press_acticle header p span {
+	    &:first-child {
+	        font: 14px 'PT_Sans-Web-Italic';
+	    }
+	    &:last-child {
+	        font: 14px 'PT_Sans-Web-BoldItalic';
+	    }
+	}
+
+	.press_acticle aside {
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_art_title p {
+	    margin-bottom: 20px;
+	}
+
+	.press_acticle .p_art_title img {
+	    margin-right: 25px;
+	    margin-bottom: 20px;
+	}
+
+	.press_acticle .p_read_more-blc {
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_read_more-blc-cnt p {
+	    margin-bottom: 15px;
+	}
+
+
+	// .read_more-blc-cnt {
+	//     display: none;
+	// }
+
+	.press_acticle .p_read_more-blc .p_r_m_btn-wrap {
+	    position: relative;
+	    padding-left: 20px;
+	    a {
+	        font: 18px 'PT_Sans-Web-Bold';
+	    }
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/folding_icon.png');
+	    }
+	}
+	
+	// dop class
+	.press_acticle .p_read_more-blc .p_r_m_btn-wrap-up {
+	    position: relative;
+	    padding-left: 20px;
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/dropout_icon.png');
+	    }
+	}
+	// dop class
+	
+	.press_acticle footer {
+		@include beverages_post_social_icons;
+	    padding-left: 0;
+   		margin-bottom: 25px;
+    }
+
+	// end press page
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	// contacts_pressrelease_content
+
+	.contacts_pressrelease_content {
+	    padding-bottom: 235px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_pressrelease_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_pressrelease_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 25px;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_pressrelease_navigation {
+	    @include navigation_sm;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// press_content
+
+	.press_content {
+	    padding-top: 5px;
+	    margin-top: -10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.press_acticle {
+	    margin-bottom: 30px;
+	}
+
+	.press_acticle header {
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle header h3 {
+	    margin-top: -1px;
+	    font: 34px 'BebasNeueBold';
+	}
+
+	.press_acticle header p span {
+	    &:first-child {
+	        font: 14px 'PT_Sans-Web-Italic';
+	    }
+	    &:last-child {
+	        font: 14px 'PT_Sans-Web-BoldItalic';
+	    }
+	}
+
+	.press_acticle aside {
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_art_title p {
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_art_title img {
+		width: 250px;
+	    margin-right: 25px;
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_read_more-blc {
+	    margin-bottom: 10px;
+	}
+
+	.press_acticle .p_read_more-blc-cnt p {
+	    margin-bottom: 10px;
+	}
+
+
+	// .read_more-blc-cnt {
+	//     display: none;
+	// }
+
+	.press_acticle .p_read_more-blc .p_r_m_btn-wrap {
+	    position: relative;
+	    padding-left: 20px;
+	    a {
+	        font: 18px 'PT_Sans-Web-Bold';
+	    }
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/folding_icon.png');
+	    }
+	}
+	
+	// dop class
+	.press_acticle .p_read_more-blc .p_r_m_btn-wrap-up {
+	    position: relative;
+	    padding-left: 20px;
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/dropout_icon.png');
+	    }
+	}
+	// dop class
+	
+	.press_acticle footer {
+		@include beverages_post_social_icons;
+	    padding-left: 0;
+   		margin-bottom: 20px;
+    }
+
+	// end press page
+}
+
+@media (max-width: 767px) {
+
+	// contacts_pressrelease_content
+
+	.contacts_pressrelease_content {
+	    padding-bottom: 255px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_pressrelease_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_pressrelease_bread-crumbs {
+	    @include breadcrumbs_lg;
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_pressrelease_navigation {
+	    width: 290px;
+		margin: 0 auto;
+	    @include navigation_xs;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// press_content
+
+	.press_content {
+	    width: 290px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.press_acticle {
+	    margin-bottom: 30px;
+	}
+
+	.press_acticle header {
+	    margin-top: 25px;
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle header h3 {
+	    font: 24px 'BebasNeueBold';
+	}
+
+	.press_acticle header p span {
+	    &:first-child {
+	        font: 13px 'PT_Sans-Web-Italic';
+	    }
+	    &:last-child {
+	        font: 13px 'PT_Sans-Web-BoldItalic';
+	    }
+	}
+
+	.press_acticle aside {
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_art_title p {
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_art_title img {
+		width: 290px;
+	    margin-bottom: 15px;
+	}
+
+	.press_acticle .p_read_more-blc {
+	    margin-bottom: 10px;
+	}
+
+	.press_acticle .p_read_more-blc-cnt p {
+	    margin-bottom: 10px;
+	}
+
+
+	// .read_more-blc-cnt {
+	//     display: none;
+	// }
+
+	.press_acticle .p_read_more-blc .p_r_m_btn-wrap {
+	    position: relative;
+	    // padding-left: 20px;
+	    a {
+	        font: 16px 'PT_Sans-Web-Bold';
+	    }
+	    &:before {
+	        position: absolute;
+	        top: 9px;
+	        left: 90px;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/folding_icon.png');
+	    }
+	}
+	
+	// dop class
+	.press_acticle .p_read_more-blc .p_r_m_btn-wrap-up {
+	    position: relative;
+	    padding-left: 20px;
+	    &:before {
+	        position: absolute;
+	        top: 10px;
+	        left: 0;
+	        width: 9px;
+	        height: 8px;
+	        content: '';
+	        background: url('../images/dropout_icon.png');
+	    }
+	}
+	// dop class
+	
+	.press_acticle footer {
+		@include beverages_post_social_icons;
+	    padding-left: 0;
+   		margin-bottom: 20px;
+    }
+
+	// end press page
+}

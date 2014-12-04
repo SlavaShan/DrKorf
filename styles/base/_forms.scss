@@ -1,0 +1,270 @@
+
+// form order a party
+
+.bg_modal {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.form_order-party {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 430px;
+    height: 445px;
+    padding: 25px 75px;
+    background-color: #f4f4f6;
+    border: 6px solid #fff;
+    border-radius: 5px;
+}
+
+.form_order-party h5 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1164c0;
+    text-align: center;
+}
+
+.form_order-party label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form_order-party input {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+       -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+            box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.form_order-party a.form_btn {
+    display: inline-block;
+    padding: 16px 50px;
+    margin-top: 2px;
+    margin-left: 50px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: #0f64be;
+    border-radius: 3px;
+}
+
+// end form order a party
+
+// send a resume
+
+.form_send-resume {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 430px;
+    height: 415px;
+    padding: 25px 75px;
+    background-color: #f4f4f6;
+    border: 6px solid #fff;
+    border-radius: 5px;
+}
+
+.form_send-resume h5 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1164c0;
+    text-align: center;
+}
+
+.form_send-resume label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form_send-resume input {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+       -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+            box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.form_upload {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.form_upload a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dashed #1164c0;
+}
+
+.form_send-resume a.form_btn {
+    display: inline-block;
+    padding: 15px 45px;
+    margin-top: 2px;
+    margin-left: 50px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: #0f64be;
+    border-radius: 3px;
+}
+
+// end send a resume
+
+// upload the photo
+
+.form_upload-photo {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 430px;
+    height: 415px;
+    padding: 25px 75px;
+    background-color: #f4f4f6;
+    border: 6px solid #fff;
+    border-radius: 5px;
+}
+
+.form_upload-photo h5 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1164c0;
+    text-align: center;
+}
+
+.form_upload-photo label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form_upload-photo input {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+       -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+            box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.form_upload {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.form_upload a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dashed #1164c0;
+}
+
+.form_upload-photo a.form_btn {
+    display: inline-block;
+    padding: 15px 45px;
+    margin-top: 2px;
+    margin-left: 50px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: #0f64be;
+    border-radius: 3px;
+}
+
+// end upload the photo
+
+// add a photo
+
+.form_add-photo {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 430px;
+    height: 317px;
+    padding: 25px 0;
+    background-color: #f4f4f6;
+    border: 6px solid #fff;
+    border-radius: 5px;
+}
+
+.form_add-photo h5 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1164c0;
+    text-align: center;
+}
+
+.a_f_wrap {
+    padding: 0 75px;
+}
+
+.form_add-photo label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form_add-photo input {
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+       -moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+            box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.form_upload {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.form_upload a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dashed #1164c0;
+}
+
+.form_add-photo a.form_btn {
+    display: inline-block;
+    padding: 15px 45px;
+    margin-top: 2px;
+    margin-left: 50px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: #0f64be;
+    border-radius: 3px;
+}
+
+// end add a photo

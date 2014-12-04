@@ -1,0 +1,23 @@
+
+// main content 
+
+.main_content_inner .m_c-card {
+    background: #e8e8e8;
+    -webkit-box-shadow: 0 0 4px rgba(170,170,170,.75);
+       -moz-box-shadow: 0 0 4px rgba(170,170,170,.75);
+            box-shadow: 0 0 4px rgba(170,170,170,.75);
+}
+
+.main_content_inner .m_c-card-info {
+    background: #fff;
+    -webkit-box-shadow: 0 0 2px #d5d5d5;
+       -moz-box-shadow: 0 0 2px #d5d5d5;
+            box-shadow: 0 0 2px #d5d5d5;
+}
+
+.main_content_inner .m_c-card-info hr {
+    background: #e8e8e8;
+    border: none;
+}
+
+// end main content

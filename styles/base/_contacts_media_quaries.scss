@@ -1,0 +1,671 @@
+@media (min-width: 1200px) {
+
+	// contacts
+
+	.contacts_content {
+	    padding-bottom: 245px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_bread-crumbs {
+		@include breadcrumbs_lg;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_navigation {
+	    @include navigation_lg;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 75px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// our contacts
+
+	.our_contacts header h3 {
+	    margin-top: -9px;
+	    margin-bottom: 24px;
+	    font: 50px 'BebasNeueBold';
+	}
+
+	.o_c_phone,
+	.o_c_mail {
+	    position: relative;
+	    padding-left: 30px;
+	    font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	.o_c_phone {
+	    margin: 20px 0 10px;
+	    &:before {
+	        position: absolute;
+	        top: -1px;
+	        left: 1px;
+	        width: 20px;
+	        height: 18px;
+	        content: '';
+	        background: url(../images/phone_icon.png);
+	    }
+	}
+
+	.o_c_mail {
+	    margin-bottom: 23px;
+	    &:before {
+	        position: absolute;
+	        top: 3px;
+	        left: 0;
+	        width: 20px;
+	        height: 14px;
+	        content: '';
+	        background: url(../images/mail_icon.png);
+	    }
+	}
+
+	.o_c_faq-wrap {
+	    position: relative;
+	    margin-top: 25px;
+	    &:before {
+	        position: absolute;
+	        top: 9px;
+	        left: 0;
+	        width: 8px;
+	        height: 9px;
+	        content: '';
+	        background: url(../images/br_arrow_icon.png);
+	    }
+	}
+
+	.o_c_faq {
+	    margin-left: 15px;
+	    font: 20px 'PT_Sans-Web-Bold';
+	}
+
+// end our contacts
+
+	// write to us form
+
+	.write_us_form {
+	    padding-bottom: 60px;
+	}
+
+	.write_us_form form {
+	    position: relative;
+	    width: 457px;
+	    height: 657px;
+	    padding: 15px 20px;
+	     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    &:after {
+	        position: absolute;
+	        bottom: -30px;
+	        left: 0;
+	        // width: 457px;
+	        // height: 30px;
+	        content: '';
+	        // background: url(../images/w_u_form-shadow.png);
+	    }
+	}
+
+	.write_us_form-title {
+	    margin-bottom: 15px;
+	    font: 20px 'PT_Sans-Web-BoldItalic';
+	    text-align: center;
+	}
+
+	.write_us_form label {
+	    font: 20px 'PT_Sans-Web-Bold';
+	}
+
+	.write_us_form input {
+	    width: 340px;
+	    height: 36px;
+	    padding: 10px;
+	    margin-top: 8px;
+	    margin-bottom: 25px;
+	}
+
+	.write_us_form textarea {
+	    width: 100% !important;
+	    height: 127px !important;
+	    padding: 10px;
+	    margin-top: 12px;
+	    margin-bottom: 20px;
+	}
+
+	.write_us_form .send_btn {
+	    @include order_btn;
+	}
+
+// end write to us form
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	// contacts
+
+	.contacts_content {
+	    padding-bottom: 245px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_bread-crumbs {
+		@include breadcrumbs_lg;
+		margin-bottom: 35px;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_navigation {
+	    @include navigation_md;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 65px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// our contacts
+
+	.our_contacts header h3 {
+	    margin-top: -8px;
+	    margin-bottom: 20px;
+	    font: 42px 'BebasNeueBold';
+	}
+
+	.o_c_phone,
+	.o_c_mail {
+	    position: relative;
+	    padding-left: 30px;
+	    font: 14px 'PT_Sans-Web-Bold';
+	}
+
+	.o_c_phone {
+	    margin: 15px 0 10px;
+	    &:before {
+	        position: absolute;
+	        top: -1px;
+	        left: 1px;
+	        width: 20px;
+	        height: 18px;
+	        content: '';
+	        background: url(../images/phone_icon.png);
+	    }
+	}
+
+	.o_c_mail {
+	    margin-bottom: 15px;
+	    &:before {
+	        position: absolute;
+	        top: 3px;
+	        left: 0;
+	        width: 20px;
+	        height: 14px;
+	        content: '';
+	        background: url(../images/mail_icon.png);
+	    }
+	}
+
+	.o_c_faq-wrap {
+	    position: relative;
+	    margin-top: 20px;
+	    &:before {
+	        position: absolute;
+	        top: 9px;
+	        left: 0;
+	        width: 8px;
+	        height: 9px;
+	        content: '';
+	        background: url(../images/br_arrow_icon.png);
+	    }
+	}
+
+	.o_c_faq {
+	    margin-left: 15px;
+	    font: 18px 'PT_Sans-Web-Bold';
+	}
+
+// end our contacts
+
+	// write to us form
+
+	.write_us_form {
+	    padding-bottom: 60px;
+	}
+
+	.write_us_form form {
+	    position: relative;
+	    width: 374px;
+	    height: 635px;
+	    padding: 15px 20px;
+	    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    &:after {
+	        position: absolute;
+	        bottom: -30px;
+	        left: 0;
+	        // width: 457px;
+	        // height: 30px;
+	        content: '';
+	        // background: url(../images/w_u_form-shadow.png);
+	    }
+	}
+
+	.write_us_form-title {
+	    margin-bottom: 15px;
+	    font: 18px 'PT_Sans-Web-BoldItalic';
+	    text-align: center;
+	}
+
+	.write_us_form label {
+	    font: 18px 'PT_Sans-Web-Bold';
+	}
+
+	.write_us_form input {
+	    width: 100%;
+	    height: 36px;
+	    padding: 10px;
+	    margin-top: 8px;
+	    margin-bottom: 25px;
+	}
+
+	.write_us_form textarea {
+	    width: 100% !important;
+	    height: 127px !important;
+	    padding: 10px;
+	    margin-top: 12px;
+	    margin-bottom: 20px;
+	}
+
+	.write_us_form .send_btn {
+	    @include order_btn;
+	}
+
+// end write to us form
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	// contacts
+
+	.contacts_content {
+	    padding-bottom: 245px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_bread-crumbs {
+		@include breadcrumbs_lg;
+		margin-bottom: 25px;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_navigation {
+	    @include navigation_sm;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// our contacts
+
+	.our_contacts header h3 {
+	    margin-top: -5px;
+	    margin-bottom: 15px;
+	    font: 34px 'BebasNeueBold';
+	}
+
+	.o_c_phone,
+	.o_c_mail {
+	    position: relative;
+	    padding-left: 30px;
+	    font: 14px 'PT_Sans-Web-Bold';
+	}
+
+	.o_c_phone {
+	    margin: 10px 0 10px;
+	    &:before {
+	        position: absolute;
+	        top: -1px;
+	        left: 1px;
+	        width: 20px;
+	        height: 18px;
+	        content: '';
+	        background: url(../images/phone_icon.png);
+	    }
+	}
+
+	.o_c_mail {
+	    margin-bottom: 10px;
+	    &:before {
+	        position: absolute;
+	        top: 3px;
+	        left: 0;
+	        width: 20px;
+	        height: 14px;
+	        content: '';
+	        background: url(../images/mail_icon.png);
+	    }
+	}
+
+	.o_c_faq-wrap {
+	    position: relative;
+	    margin-top: 15px;
+	    &:before {
+	        position: absolute;
+	        top: 9px;
+	        left: 0;
+	        width: 8px;
+	        height: 9px;
+	        content: '';
+	        background: url(../images/br_arrow_icon.png);
+	    }
+	}
+
+	.o_c_faq {
+	    margin-left: 15px;
+	    font: 18px 'PT_Sans-Web-Bold';
+	}
+
+// end our contacts
+
+	// write to us form
+
+	.write_us_form {
+	    padding-bottom: 30px;
+	}
+
+	.write_us_form form {
+	    position: relative;
+	    width: 282px;
+	    height: 545px;
+	    padding: 15px 20px;
+	    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    &:after {
+	        position: absolute;
+	        bottom: -30px;
+	        left: 0;
+	        // width: 457px;
+	        // height: 30px;
+	        content: '';
+	        // background: url(../images/w_u_form-shadow.png);
+	    }
+	}
+
+	.write_us_form-title {
+	    margin-bottom: 15px;
+	    font: 16px 'PT_Sans-Web-BoldItalic';
+	    text-align: center;
+	}
+
+	.write_us_form label {
+	    font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	.write_us_form input {
+	    width: 100%;
+	    height: 32px;
+	    padding: 10px;
+	    margin-top: 8px;
+	    margin-bottom: 15px;
+	}
+
+	.write_us_form textarea {
+	    width: 100% !important;
+	    height: 107px !important;
+	    padding: 10px;
+	    margin-top: 12px;
+	    margin-bottom: 15px;
+	}
+
+	.write_us_form .send_btn {
+	    @include order_btn_sm;
+	}
+
+// end write to us form
+
+}
+
+@media (max-width: 767px) {
+
+	// contacts
+
+	.contacts_content {
+	    padding-bottom: 275px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_bread-crumbs {
+		@include breadcrumbs_lg;
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	// contacts_navigation
+
+	.contacts_navigation {
+		width: 290px;
+		margin: 0 auto;
+	    @include navigation_xs;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// our contacts
+	
+	.our_contacts {
+		width: 290px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.our_contacts header h3 {
+	    margin-top: 25px;
+	    margin-bottom: 15px;
+	    font: 24px 'BebasNeueBold';
+	}
+
+	.o_c_phone,
+	.o_c_mail {
+	    position: relative;
+	    padding-left: 30px;
+	    font: 12px 'PT_Sans-Web-Bold';
+	}
+
+	.o_c_phone {
+	    margin: 10px 0 10px;
+	    text-align: left;
+	    padding-left: 85px;
+	    &:before {
+	        position: absolute;
+	        top: -1px;
+	        left: 55px;
+	        width: 20px;
+	        height: 18px;
+	        content: '';
+	        background: url(../images/phone_icon.png);
+	    }
+	}
+
+	.o_c_mail {
+	    margin-bottom: 10px;
+	    padding-left: 105px;
+	    text-align: left;
+	    &:before {
+	        position: absolute;
+	        top: 3px;
+	        left: 70px;
+	        width: 20px;
+	        height: 14px;
+	        content: '';
+	        background: url(../images/mail_icon.png);
+	    }
+	}
+
+	.o_c_faq-wrap {
+	    position: relative;
+	    margin-top: 15px;
+	    &:before {
+	        position: absolute;
+	        top: 9px;
+	        left: 20px;
+	        width: 8px;
+	        height: 9px;
+	        content: '';
+	        background: url(../images/br_arrow_icon.png);
+	    }
+	}
+
+	.o_c_faq {
+	    margin-left: 15px;
+	    font: 18px 'PT_Sans-Web-Bold';
+	}
+
+// end our contacts
+
+	// write to us form
+
+	.write_us_form {
+		width: 290px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.write_us_form form {
+	    position: relative;
+	    width: 290px;
+	    height: 545px;
+	    padding: 15px 20px;
+	    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	    &:after {
+	        position: absolute;
+	        bottom: -30px;
+	        left: 0;
+	        // width: 457px;
+	        // height: 30px;
+	        content: '';
+	        // background: url(../images/w_u_form-shadow.png);
+	    }
+	}
+
+	.write_us_form-title {
+	    margin-bottom: 15px;
+	    font: 16px 'PT_Sans-Web-BoldItalic';
+	    text-align: center;
+	}
+
+	.write_us_form label {
+	    font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	.write_us_form input {
+	    width: 100%;
+	    height: 32px;
+	    padding: 10px;
+	    margin-top: 8px;
+	    margin-bottom: 15px;
+	}
+
+	.write_us_form textarea {
+	    width: 100% !important;
+	    height: 107px !important;
+	    padding: 10px;
+	    margin-top: 12px;
+	    margin-bottom: 15px;
+	}
+
+	.write_us_form .send_btn {
+	    @include order_btn_sm;
+	    display: inline-block;
+	}
+
+// end write to us form
+}

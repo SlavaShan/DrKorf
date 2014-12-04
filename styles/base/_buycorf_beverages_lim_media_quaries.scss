@@ -1,0 +1,594 @@
+@media (min-width: 1200px) {
+    .buykorf_bever_lim_content {
+        padding-bottom: 235px;
+        margin-top: 15px;
+        margin-left: 10px;
+        font: 16px 'PT_Sans-Web-Regular';
+    }
+
+    .b_bever_lim_bread-crumbs {
+        @include breadcrumbs_lg;
+    }
+
+    .b_bever_lim_navigation {
+        @include navigation_lg;
+    }
+
+
+    // aside navigation
+    
+    .b_bever_lim_navigation {
+
+        .b_c_makekorf-wrap {
+            position: relative;
+            margin-top: 140px;
+            margin-bottom: 70px;
+            text-align: center;
+            &:before {
+                position: absolute;
+                top: -110px;
+                left: 45px;
+                width: 97px;
+                height: 102px;
+                content: '';
+                background: url(../images/beverages_label-big.png);
+            }
+            h4 {
+                position: relative;
+                margin-bottom: 10px;
+                font: 21px 'BebasNeueBold';
+            }
+        }
+
+        .b_c_makekorf-title h4 {
+            &:after {
+                position: absolute;
+                bottom: -17px;
+                left: 50px;
+                width: 57px;
+                height: 5px;
+                font: 16px 'PT_Sans-Web-Regular';
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+        }
+
+        .b_c_makekorf {
+            margin-top: 30px;
+        }
+
+        .b_c_makekorf p {
+            margin-bottom: 10px;
+            font: 16px 'PT_Sans-Web-Italic';
+        }
+
+        .b_c_makekorf a {
+            position: relative;
+            font: 16px 'PT_Sans-Web-Bold';
+            &:after {
+                position: absolute;
+                bottom: -17px;
+                left: 30px;
+                width: 57px;
+                height: 5px;
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+        }
+    }
+
+    // end aside navigation
+
+    // baverages_wrap
+
+    .baverages_lim_wrap_title {
+        margin-bottom: 45px;
+    }
+
+    .baverages_lim_wrap_title h3 {
+        margin-top: -9px;
+        margin-bottom: 25px;
+        font: 50px 'BebasNeueBold';
+    }
+
+    .baverages_lim_wrap {
+        @include pie-clearfix;
+        ul {
+            margin-left: -30px;
+            li {
+                float: left;
+                margin-bottom: 55px;
+                margin-left: 30px;
+            }
+        }
+    }
+
+    .baverage_lim_card {
+        position: relative;
+        width: 295px;
+        height: 375px;
+        text-align: center;
+         -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        &:after {
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            // width: 295px;
+            // height: 20px;
+            content: '';
+            // background: url(../images/baverage_card-shadow.png);
+        }
+    }
+
+    .baverage_lim_card img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .baverage_lim_card h5 {
+        margin-bottom: 10px;
+        font: 20px 'PT_Sans-Web-Bold';
+    }
+
+    .baverage_lim_card p {
+        font: 16px 'PT_Sans-Web-Regular';
+    }
+
+    // end baverages_wrap
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .buykorf_bever_lim_content {
+        padding-bottom: 235px;
+        margin-top: 15px;
+        margin-left: 10px;
+        font: 14px 'PT_Sans-Web-Regular';
+    }
+
+    .b_bever_lim_bread-crumbs {
+        @include breadcrumbs_lg;
+
+        margin-bottom: 35px;
+    }
+
+    .b_bever_lim_navigation {
+        @include navigation_md;
+    }
+
+
+    // aside navigation
+    
+    .b_bever_lim_navigation {
+
+        .b_c_makekorf-wrap {
+            position: relative;
+            margin-top: 130px;
+            margin-bottom: 70px;
+            text-align: center;
+            &:before {
+                position: absolute;
+                top: -110px;
+                left: 35px;
+                width: 97px;
+                height: 102px;
+                content: '';
+                background: url(../images/beverages_label-big.png);
+            }
+            h4 {
+                position: relative;
+                margin-bottom: 10px;
+                font: 16px 'BebasNeueBold';
+            }
+        }
+
+        .b_c_makekorf-title h4 {
+            &:after {
+                position: absolute;
+                bottom: -17px;
+                left: 36px;
+                width: 57px;
+                height: 5px;
+                font: 15px 'PT_Sans-Web-Regular';
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+        }
+
+        .b_c_makekorf {
+            margin-top: 25px;
+        }
+
+        .b_c_makekorf p {
+            margin-bottom: 10px;
+            font: 15px 'PT_Sans-Web-Italic';
+        }
+
+        .b_c_makekorf a {
+            position: relative;
+            font: 15px 'PT_Sans-Web-Bold';
+            &:after {
+                position: absolute;
+                bottom: -17px;
+                left: 30px;
+                width: 57px;
+                height: 5px;
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+        }
+    }
+
+    // end aside navigation
+
+    // baverages_wrap
+
+    .baverages_lim_wrap_title {
+        margin-bottom: 35px;
+    }
+
+    .baverages_lim_wrap_title h3 {
+        margin-top: -8px;
+        margin-bottom: 20px;
+        font: 42px 'BebasNeueBold';
+    }
+
+    .baverages_lim_wrap {
+        @include pie-clearfix;
+        ul {
+            margin-left: -20px;
+            li {
+                float: left;
+                margin-bottom: 45px;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .baverage_lim_card {
+        position: relative;
+        width: 240px;
+        height: 340px;
+        padding: 10px;
+        text-align: center;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.4), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        &:after {
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            content: '';
+            // background: url(../images/baverage_card-shadow.png);
+            // width: 240px;
+            // height: 20px;
+        }
+    }
+
+    .baverage_lim_card img {
+        width: 220px;
+        margin-bottom: 15px;
+    }
+
+    .baverage_lim_card h5 {
+        margin-bottom: 10px;
+        font: 18px 'PT_Sans-Web-Bold';
+    }
+
+    .baverage_lim_card p {
+        font: 15px 'PT_Sans-Web-Regular';
+    }
+
+    // end baverages_wrap
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .buykorf_bever_lim_content {
+        padding-bottom: 225px;
+        margin-top: 15px;
+        margin-left: 10px;
+        font: 14px 'PT_Sans-Web-Regular';
+    }
+
+    .b_bever_lim_bread-crumbs {
+        @include breadcrumbs_lg;
+        
+        margin-bottom: 25px;
+    }
+
+    .b_bever_lim_navigation {
+        @include navigation_sm;
+    }
+
+
+    // aside navigation
+
+    .b_bever_lim_navigation {
+
+        .b_c_makekorf-wrap {
+            position: relative;
+            margin-top: 110px;
+            margin-bottom: 20px;
+            text-align: center;
+            &:before {
+                position: absolute;
+                top: -90px;
+                left: 18px;
+                width: 70px;
+                height: 74px;
+                content: '';
+                background: url(../images/beverages_label-mid.png);
+            }
+            h4 {
+                position: relative;
+                margin-bottom: 10px;
+                font: 14px 'BebasNeueBold';
+            }
+        }
+
+        .b_c_makekorf-title h4 {
+            &:after {
+                position: absolute;
+                bottom: -14px;
+                left: 19px;
+                width: 57px;
+                height: 5px;
+                font: 15px 'PT_Sans-Web-Regular';
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+        }
+
+        .b_c_makekorf {
+            margin-top: 20px;
+        }
+
+        .b_c_makekorf p {
+            margin-bottom: 10px;
+            font: 14px 'PT_Sans-Web-Italic';
+        }
+
+        .b_c_makekorf a {
+            position: relative;
+            font: 14px 'PT_Sans-Web-Bold';
+            &:after {
+                position: absolute;
+                bottom: -17px;
+                left: 10px;
+                width: 57px;
+                height: 5px;
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+        }
+    }
+
+    // end aside navigation
+
+    // baverages_wrap
+
+    .baverages_lim_wrap_title {
+        margin-bottom: 20px;
+    }
+
+    .baverages_lim_wrap_title h3 {
+        margin-top: -5px;
+        font: 34px 'BebasNeueBold';
+    }
+
+    .baverages_lim_wrap {
+        @include pie-clearfix;
+        ul {
+            margin-left: -50px;
+            li {
+                float: left;
+                margin-bottom: 35px;
+                margin-left: 50px;
+            }
+        }
+    }
+
+    .baverage_lim_card {
+        position: relative;
+        width: 240px;
+        height: 340px;
+        padding: 10px;
+        text-align: center;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        &:after {
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            content: '';
+            // background: url(../images/baverage_card-shadow.png);
+            // width: 240px;
+            // height: 20px;
+        }
+    }
+
+    .baverage_lim_card img {
+        width: 220px;
+        margin-bottom: 15px;
+    }
+
+    .baverage_lim_card h5 {
+        margin-bottom: 10px;
+        font: 18px 'PT_Sans-Web-Bold';
+    }
+
+    .baverage_lim_card p {
+        font: 15px 'PT_Sans-Web-Regular';
+    }
+
+    // end baverages_wrap
+}
+
+@media (max-width: 767px) {
+    .buykorf_bever_lim_content {
+        padding-bottom: 240px;
+        margin-top: 15px;
+        font: 12px 'PT_Sans-Web-Regular';
+    }
+
+    .b_bever_lim_bread-crumbs {
+        width: 290px;
+        margin: 0 auto;
+
+        @include breadcrumbs_lg;
+        margin-bottom: 20px;
+    }
+
+    .b_bever_lim_navigation {
+        width: 290px;
+        margin: 0 auto;
+
+        @include navigation_xs;
+    }
+
+
+    // aside navigation
+
+    .b_bever_lim_navigation {
+
+        .b_c_makekorf-wrap {
+            position: relative;
+            width: 290px;
+            margin-top: 100px;
+            margin-bottom: 20px;
+            text-align: center;
+            &:before {
+                position: absolute;
+                top: -80px;
+                left: 120px;
+                width: 70px;
+                height: 74px;
+                content: '';
+                background: url(../images/beverages_label-mid.png);
+            }
+            h4 {
+                position: relative;
+                margin-bottom: 10px;
+                font: 14px 'BebasNeueBold';
+            }
+        }
+
+        .b_c_makekorf-title h4 {
+            &:after {
+                position: absolute;
+                bottom: -14px;
+                left: 120px;
+                width: 57px;
+                height: 5px;
+                font: 14px 'PT_Sans-Web-Regular';
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+        }
+
+        .b_c_makekorf {
+            margin-top: 20px;
+        }
+
+        .b_c_makekorf p {
+            margin-bottom: 0;
+            font: 13px 'PT_Sans-Web-Italic';
+        }
+
+        .b_c_makekorf a {
+            position: relative;
+            font: 13px 'PT_Sans-Web-Bold';
+            &:after {
+                position: absolute;
+                bottom: -15px;
+                left: 19px;
+                width: 57px;
+                height: 5px;
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+        }
+    }
+
+    // end aside navigation
+
+    // baverages_wrap
+
+    .baverages_lim_wrap {
+        width: 290px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .baverages_lim_wrap_title {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .baverages_lim_wrap_title h3 {
+        // margin-top: -9px;
+        font: 24px 'BebasNeueBold';
+    }
+
+    .baverages_lim_wrap {
+        @include pie-clearfix;
+        ul {
+            // margin-left: -50px;
+            li {
+                float: left;
+                // margin-left: 50px;
+                margin-bottom: 35px;
+            }
+        }
+    }
+
+    .baverage_lim_card {
+        position: relative;
+        width: 290px;
+        height: 355px;
+        text-align: center;
+        -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+           -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        &:after {
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            content: '';
+            // background: url(../images/baverage_card-shadow.png);
+            // width: 295px;
+            // height: 20px;
+        }
+    }
+
+    .baverage_lim_card img {
+        width: 250px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .baverage_lim_card h5 {
+        margin-bottom: 10px;
+        font: 18px 'PT_Sans-Web-Bold';
+    }
+
+    .baverage_lim_card p {
+        font: 15px 'PT_Sans-Web-Regular';
+    }
+
+    // end baverages_wrap
+}

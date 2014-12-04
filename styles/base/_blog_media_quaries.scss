@@ -1,0 +1,500 @@
+@media (min-width: 1200px) {
+
+	// blog content
+
+	.blog_content {
+	    padding-bottom: 245px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.blog_content p {
+		line-height: 1.5;
+	}
+
+	.blog_bread-crumbs {
+	    @include breadcrumbs_lg;
+	}
+
+	.blog_navigation {
+	    @include navigation_lg;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 75px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// aside navigation
+
+	.blog_navigation {
+
+	    .last_blog_articles {
+	    	margin-top: 40px;
+	    	text-align: center;
+	    }
+
+	    .last_blog_articles h4 {
+	    	font: 21px 'BebasNeueBold';
+	        margin-bottom: 20px;
+	    }
+
+	    .last_blog_articles .l_b_art {
+	    	margin-bottom: 25px;
+	    }
+
+	    .last_blog_articles a {
+	    	position: relative;
+	    	font: 16px 'PT_Sans-Web-Regular';
+	    	line-height: 1.5;
+	    	&:after {
+	    		content: '';
+	    		position: absolute;
+	    		bottom: -17px;
+	    		left: 35px;
+	    		background: url(../images/dashed_line-art.png);
+	    		width: 57px;
+	    		height: 5px;
+	    	}
+	    }
+	}
+
+	// end aside navigation
+
+	// bl_cnt
+
+	.blog_content .bl_cnt header {
+	    margin-bottom: 23px;
+	}
+
+	.blog_content .bl_cnt a {
+		text-decoration: none;
+	}
+
+	.blog_content .bl_cnt header h3 {
+	    display: inline-block;
+	    margin-top: -9px;
+	    font: 50px 'BebasNeueBold';
+	    color: #0f65bd;
+	}
+
+	.bl_cnt_acticle {
+	    margin-bottom: 38px;
+	}
+
+	.bl_cnt_acticle header p {
+		font: 16px 'PT_Sans-Web-Italic';
+		span {
+			font: 16px 'PT_Sans-Web-BoldItalic';
+			margin-right: 10px;
+		}
+	}
+
+	.bl_cnt_acticle aside {
+	    margin-bottom: 25px;
+	}
+
+	.bl_cnt_acticle .art_title p {
+	    margin-bottom: 25px;
+	}
+
+
+	.bl_cnt_acticle .art_title img {
+	    margin-right: 35px;
+	    margin-bottom: 25px;
+	}
+
+	.bl_cnt_acticle footer {
+	    @include beverages_post_social_icons;
+	    .like_btn {
+	        @include like_btn;
+	        margin-left: 15px;
+	    }
+	    padding-left: 0;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	// blog content
+
+	.blog_content {
+	    padding-bottom: 245px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.blog_content p {
+		line-height: 1.5;
+	}
+
+	.blog_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 35px;
+	}
+
+	.blog_navigation {
+	    @include navigation_md;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 65px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// aside navigation
+
+	.blog_navigation {
+
+	    .last_blog_articles {
+	    	margin-top: 30px;
+	    	text-align: center;
+	    }
+
+	    .last_blog_articles h4 {
+	    	font: 18px 'BebasNeueBold';
+	        margin-bottom: 15px;
+	    }
+
+	    .last_blog_articles .l_b_art {
+	    	margin-bottom: 25px;
+	    }
+
+	    .last_blog_articles a {
+	    	position: relative;
+	    	font: 14px 'PT_Sans-Web-Regular';
+	    	line-height: 1.5;
+	    	&:after {
+	    		content: '';
+	    		position: absolute;
+	    		bottom: -17px;
+	    		left: 33px;
+	    		background: url(../images/dashed_line-art.png);
+	    		width: 57px;
+	    		height: 5px;
+	    	}
+	    }
+	}
+
+	// end aside navigation
+
+	// bl_cnt
+
+	.blog_content .bl_cnt header {
+	    margin-bottom: 20px;
+	}
+
+	.blog_content .bl_cnt a {
+		text-decoration: none;
+	}
+
+	.blog_content .bl_cnt header h3 {
+	    display: inline-block;
+	    margin-top: -8px;
+	    font: 42px 'BebasNeueBold';
+	    color: #0f65bd;
+	}
+
+	.bl_cnt_acticle {
+	    margin-bottom: 40px;
+	}
+
+	.bl_cnt_acticle header p {
+		font: 14px 'PT_Sans-Web-Italic';
+		span {
+			font: 16px 'PT_Sans-Web-BoldItalic';
+			margin-right: 10px;
+		}
+	}
+
+	.bl_cnt_acticle aside {
+	    margin-bottom: 15px;
+	}
+
+	.bl_cnt_acticle .art_title p {
+	    margin-bottom: 20px;
+	}
+
+
+	.bl_cnt_acticle .art_title img {
+	    margin-right: 25px;
+	    margin-bottom: 15px;
+	}
+
+	.bl_cnt_acticle footer {
+	    @include beverages_post_social_icons;
+	    .like_btn {
+	        @include like_btn;
+	        margin-left: 15px;
+	    }
+	    padding-left: 0;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	// blog content
+
+	.blog_content {
+	    padding-bottom: 235px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.blog_content p {
+		line-height: 1.5;
+	}
+
+	.blog_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 25px;
+	}
+
+	.blog_navigation {
+	    @include navigation_sm;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// aside navigation
+
+	.blog_navigation {
+
+	    .last_blog_articles {
+	    	margin-top: 20px;
+	    	text-align: center;
+	    }
+
+	    .last_blog_articles h4 {
+	    	font: 15px 'BebasNeueBold';
+	        margin-bottom: 10px;
+	    }
+
+	    .last_blog_articles .l_b_art {
+	    	margin-bottom: 25px;
+	    }
+
+	    .last_blog_articles a {
+	    	position: relative;
+	    	font: 13px 'PT_Sans-Web-Regular';
+	    	line-height: 1.5;
+	    	&:after {
+	    		content: '';
+	    		position: absolute;
+	    		bottom: -17px;
+	    		left: -1px;
+	    		background: url(../images/dashed_line-art.png);
+	    		width: 57px;
+	    		height: 5px;
+	    	}
+	    }
+	}
+
+	// end aside navigation
+
+	// bl_cnt
+
+	.blog_content .bl_cnt header {
+	    margin-bottom: 15px;
+	}
+
+	.blog_content .bl_cnt header h3 {
+	    display: inline-block;
+	    margin-top: -5px;
+	    font: 34px 'BebasNeueBold';
+	}
+
+	.bl_cnt_acticle {
+	    margin-bottom: 30px;
+	}
+
+	.bl_cnt_acticle header p {
+		font: 14px 'PT_Sans-Web-Italic';
+		span {
+			font: 16px 'PT_Sans-Web-BoldItalic';
+			margin-right: 10px;
+		}
+	}
+
+	.bl_cnt_acticle aside {
+	    margin-bottom: 15px;
+	}
+
+	.bl_cnt_acticle .art_title p {
+	    margin-bottom: 15px;
+	}
+
+
+	.bl_cnt_acticle .art_title img {
+		width: 250px;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+
+	.bl_cnt_acticle footer {
+	    @include beverages_post_social_icons;
+	    .like_btn {
+	        @include like_btn;
+	        margin-left: 15px;
+	    }
+	    padding-left: 0;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	// blog content
+
+	.blog_content {
+	    padding-bottom: 245px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.blog_content p {
+		line-height: 1.5;
+	}
+
+	.blog_bread-crumbs {
+	    @include breadcrumbs_lg;
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.blog_navigation {
+	    width: 290px;
+		margin: 0 auto;
+	    @include navigation_xs;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// aside navigation
+
+	.blog_navigation {
+
+	    .last_blog_articles {
+	    	width: 290px;
+			margin: 0 auto;
+	    	margin-top: 20px;
+	    	text-align: center;
+	    }
+
+	    .last_blog_articles h4 {
+	    	font: 15px 'BebasNeueBold';
+	        margin-bottom: 10px;
+	    }
+
+	    .last_blog_articles .l_b_art {
+	    	margin-bottom: 25px;
+	    }
+
+	    .last_blog_articles a {
+	    	position: relative;
+	    	font: 13px 'PT_Sans-Web-Regular';
+	    	line-height: 1.5;
+	    	&:after {
+	    		content: '';
+	    		position: absolute;
+	    		bottom: -17px;
+	    		left: 90px;
+	    		background: url(../images/dashed_line-art.png);
+	    		width: 57px;
+	    		height: 5px;
+	    	}
+	    }
+	}
+
+	// end aside navigation
+
+	// bl_cnt
+
+	.bl_cnt {
+		width: 290px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.blog_content .bl_cnt header {
+	    margin-top: 15px;
+	    margin-bottom: 15px;
+	}
+
+	.blog_content .bl_cnt header h3 {
+	    display: inline-block;
+	    font: 24px 'BebasNeueBold';
+	    color: #0f65bd;
+	}
+
+	.bl_cnt_acticle {
+	    margin-bottom: 30px;
+	}
+
+	.bl_cnt_acticle header p {
+		font: 13px 'PT_Sans-Web-Italic';
+		span {
+			font: 13px 'PT_Sans-Web-BoldItalic';
+			margin-right: 10px;
+		}
+	}
+
+	.bl_cnt_acticle aside {
+	    margin-bottom: 15px;
+	}
+
+	.bl_cnt_acticle .art_title p {
+	    margin-bottom: 15px;
+	}
+
+
+	.bl_cnt_acticle .art_title img {
+		width: 290px;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+
+	.bl_cnt_acticle footer {
+		.foot_soc_wrap {
+		    @include beverages_post_social_icons;
+		    padding-left: 0;
+		    margin-bottom: 0;
+		}
+	    .like_btn {
+	        @include like_btn;
+	        margin-top: 15px;
+	        margin-bottom: 20px;
+	    }
+	}
+}

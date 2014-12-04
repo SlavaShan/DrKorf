@@ -1,0 +1,41 @@
+
+.header_top_line {
+    height: 30px;
+    background-color: #fff;
+    border-bottom: 3px solid #0f64be;
+}
+
+.h_t_line {
+    width: 100%;
+    text-align: right;
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+    span {
+        color: #000;
+    }
+}
+
+.header_top_inner-nav {
+    ul {
+        li {
+            float: left;
+            a {
+                display: block;
+                color: #2b3942;
+                text-decoration: none;
+                &:hover {
+                    color: #fff;
+                    background: #0f64be;
+                }
+            }
+            .active_tab {
+                color: #fff;
+                background: #0f64be;
+            }
+        }
+    }
+}
+
+// end header

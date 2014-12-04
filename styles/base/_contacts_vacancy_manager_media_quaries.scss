@@ -1,0 +1,259 @@
+@media (min-width: 1200px) {
+
+	// contacts
+
+	.contacts_vacancy_manager_content {
+	    padding-bottom: 300px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_vacancy_manager_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_vacancy_manager_bread-crumbs {
+	    @include breadcrumbs_lg;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_vacancy_manager_navigation {
+	    @include navigation_lg;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 75px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// vacancy_main_content
+
+	.vacancy_manager_main_content h3 {
+	    margin: -9px auto 25px -2px;
+	    font: 50px 'BebasNeueBold';
+	}
+
+	.vacancy_manager_main_content p {
+	    margin-bottom: 43px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.vacancy_manager_main_content .order_btn {
+	    @include order_btn;
+	}
+
+// end contacts / vacancy
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	// contacts
+
+	.contacts_vacancy_manager_content {
+	    padding-bottom: 300px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_vacancy_manager_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_vacancy_manager_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 35px;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_vacancy_manager_navigation {
+	    @include navigation_md;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 65px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// vacancy_main_content
+
+	.vacancy_manager_main_content h3 {
+	    margin-top: -8px;
+	    margin-bottom: 20px;
+	    font: 42px 'BebasNeueBold';
+	}
+
+	.vacancy_manager_main_content p {
+	    margin-bottom: 30px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.vacancy_manager_main_content .order_btn {
+	    @include order_btn;
+	}
+
+// end contacts / vacancy
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	// contacts
+
+	.contacts_vacancy_manager_content {
+	    padding-bottom: 300px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_vacancy_manager_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_vacancy_manager_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 25px;
+	}
+
+	// buykorf_content navigation
+
+	.contacts_vacancy_manager_navigation {
+	    @include navigation_sm;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// vacancy_main_content
+
+	.vacancy_manager_main_content h3 {
+		margin-top: -5px;
+		margin-bottom: 15px;
+		font: 34px 'BebasNeueBold';
+	}
+
+	.vacancy_manager_main_content p {
+	    margin-bottom: 20px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.vacancy_manager_main_content .order_btn {
+	    @include order_btn_sm;
+	}
+
+// end contacts / vacancy
+
+}
+
+@media (max-width: 767px) {
+
+	// contacts
+
+	.contacts_vacancy_manager_content {
+	    padding-bottom: 280px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.contacts_vacancy_manager_content p {
+	    line-height: 1.5;
+	}
+
+	// contacts / vacancy
+
+	// bread crumbs
+
+	.contacts_vacancy_manager_bread-crumbs {
+	    @include breadcrumbs_lg;
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+
+		.br_vac {
+	        color: #0f65bd;
+	        text-decoration: none;
+	        display: block;
+	        margin-top: 10px;
+	    }
+	}
+
+	// buykorf_content navigation
+
+	.contacts_vacancy_manager_navigation {
+	    width: 290px;
+		margin: 0 auto;
+	    @include navigation_xs;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+	                a {
+	                    padding-top: 0;
+	                    line-height: 55px;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	// vacancy_main_content
+
+	.vacancy_manager_main_content {
+		width: 290px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.vacancy_manager_main_content h3 {
+		margin-top: 25px;
+	    margin-bottom: 15px;
+	    font: 24px 'BebasNeueBold';
+	}
+
+	.vacancy_manager_main_content p {
+	    margin-bottom: 20px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.vacancy_manager_main_content .order_btn {
+	    @include order_btn_sm;
+	    display: inline-block;
+	}
+
+// end contacts / vacancy
+}

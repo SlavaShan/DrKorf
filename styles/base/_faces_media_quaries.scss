@@ -1,0 +1,124 @@
+@media (min-width: 1200px) {
+
+	.faces_content {
+	    padding-bottom: 245px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.faces_content .f_c_title h3 {
+		margin-top: 50px;
+		margin-bottom: 40px;
+		font: 50px 'BebasNeueBold';
+	}
+
+	.faces_content .f_c_info {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.faces_content .f_c_info img {
+		margin-bottom: 10px;
+		width: 263px;
+		height: 255px;
+	}
+
+	.faces_content .f_c_info span {
+		font: 20px 'PT_Sans-Web-Bold';
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.faces_content {
+	    padding-bottom: 245px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.faces_content .f_c_title h3 {
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font: 42px 'BebasNeueBold';
+	}
+
+	.faces_content .f_c_info {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.faces_content .f_c_info img {
+		margin-bottom: 10px;
+		width: 212px;
+	}
+
+	.faces_content .f_c_info span {
+		font: 18px 'PT_Sans-Web-Bold';
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.faces_content {
+	    padding-bottom: 245px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.faces_content .f_c_title h3 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font: 34px 'BebasNeueBold';
+	}
+
+	.faces_content .f_c_info {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.faces_content .f_c_info img {
+		margin-bottom: 5px;
+		width: 157px;
+	}
+
+	.faces_content .f_c_info span {
+		font: 16px 'PT_Sans-Web-Bold';
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.faces_content {
+	    padding-bottom: 265px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+	
+	.faces_content .f_c_title {
+		width: 290px;
+		margin: 0 auto;
+	}
+
+	.faces_content .f_c_title h3 {
+		margin: 25px 0;
+		font: 24px 'BebasNeueBold';
+		text-align: center;
+	}
+
+	.faces_content .f_c_info {
+		width: 290px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.faces_content .f_c_info img {
+		width: 290px;
+		height: 100%;
+	}
+
+	.faces_content .f_c_info span {
+		font: 16px 'PT_Sans-Web-Bold';
+	}
+
+}
+
+// end faces_content

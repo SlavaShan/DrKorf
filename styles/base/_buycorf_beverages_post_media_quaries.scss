@@ -1,0 +1,610 @@
+@media (min-width: 1200px) {
+
+	
+	.buykorf_bever_post_content {
+	    padding-bottom: 235px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.b_bever_post_bread-crumbs {
+	    @include breadcrumbs_lg;
+	}
+
+	.b_bever_post_navigation {
+	    @include navigation_lg;
+	}
+
+	// aside navigation
+
+	.b_bever_post_navigation {
+
+		.b_c_makekorf-wrap {
+		    position: relative;
+		    margin-top: 140px;
+		    margin-bottom: 70px;
+		    text-align: center;
+		    &:before {
+		        position: absolute;
+		        top: -110px;
+		        left: 45px;
+		        width: 97px;
+		        height: 102px;
+		        content: '';
+		        background: url(../images/beverages_label-big.png);
+		    }
+		    h4 {
+		        position: relative;
+		        margin-bottom: 10px;
+		        font: 21px 'BebasNeueBold';
+		    }
+		}
+
+		.b_c_makekorf-title h4 {
+		    &:after {
+		        position: absolute;
+		        bottom: -17px;
+		        left: 50px;
+		        width: 57px;
+		        height: 5px;
+		        font: 16px 'PT_Sans-Web-Regular';
+		        content: '';
+		        background: url(../images/dashed_line-art.png);
+		    }
+		}
+
+		.b_c_makekorf {
+		    margin-top: 30px;
+		}
+
+		.b_c_makekorf p {
+		    margin-bottom: 10px;
+		    font: 16px 'PT_Sans-Web-Italic';
+		}
+
+		.b_c_makekorf a {
+		    position: relative;
+		    font: 16px 'PT_Sans-Web-Bold';
+		    &:after {
+		        position: absolute;
+		        bottom: -17px;
+		        left: 30px;
+		        width: 57px;
+		        height: 5px;
+		        content: '';
+		        background: url(../images/dashed_line-art.png);
+		    }
+		}
+	}
+
+	// end aside navigation
+
+	// baverages_post
+
+	.baverages_post_wrap_title {
+	    margin-bottom: 10px;
+	}
+
+	.baverages_post_wrap_title h3 {
+	    margin-top: -9px;
+	    font: 50px 'BebasNeueBold';
+	}
+
+	.b_p_content {
+	    @include pie-clearfix;
+	}
+
+	.big_bottle {
+	    float: left;
+	    width: 390px;
+	    text-align: center;
+	}
+
+	.b_p_content_soc {
+		@include beverages_post_social_icons;
+	}
+
+	.big_bottle_info {
+	    width: 585px;
+	    padding-top: 40px;
+	    margin-left: 390px;
+	}
+
+	.big_bottle_info span {
+	    font: 20px 'PT_Sans-Web-Bold';
+	}
+
+	.big_bottle_info p {
+	    margin-top: 35px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.b_b_price {
+	    margin-top: 20px;
+	    font: 16px 'PT_Sans-Web-Italic';
+	    span {
+	        margin-left: 5px;
+	        font: 20px 'PT_Sans-Web-Bold';
+	    }
+	}
+
+	.big_bottle_info a {
+	    margin-top: 25px;
+
+	    @include order_btn;
+	}
+
+	// end baverages_post
+
+	
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	.buykorf_bever_post_content {
+	    padding-bottom: 235px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.b_bever_post_bread-crumbs {
+	    @include breadcrumbs_lg;
+
+		margin-bottom: 35px;
+	}
+
+	.b_bever_post_navigation {
+	    @include navigation_md;
+	}
+
+	// aside navigation
+	
+	.b_bever_post_navigation {
+
+		.b_c_makekorf-wrap {
+		    position: relative;
+		    margin-top: 130px;
+		    margin-bottom: 70px;
+		    text-align: center;
+		    &:before {
+		        position: absolute;
+		        top: -110px;
+		        left: 35px;
+		        width: 97px;
+		        height: 102px;
+		        content: '';
+		        background: url(../images/beverages_label-big.png);
+		    }
+		    h4 {
+		        position: relative;
+		        margin-bottom: 10px;
+		        font: 16px 'BebasNeueBold';
+		    }
+		}
+
+		.b_c_makekorf-title h4 {
+		    &:after {
+		        position: absolute;
+		        bottom: -17px;
+		        left: 36px;
+		        width: 57px;
+		        height: 5px;
+		        font: 16px 'PT_Sans-Web-Regular';
+		        content: '';
+		        background: url(../images/dashed_line-art.png);
+		    }
+		}
+
+		.b_c_makekorf {
+		    margin-top: 25px;
+		}
+
+		.b_c_makekorf p {
+		    margin-bottom: 10px;
+		    font: 15px 'PT_Sans-Web-Italic';
+		}
+
+		.b_c_makekorf a {
+		    position: relative;
+		    font: 15px 'PT_Sans-Web-Bold';
+		    &:after {
+		        position: absolute;
+		        bottom: -17px;
+		        left: 30px;
+		        width: 57px;
+		        height: 5px;
+		        content: '';
+		        background: url(../images/dashed_line-art.png);
+		    }
+		}
+	}
+
+	// end aside navigation
+
+	// baverages_post
+
+	.baverages_post_wrap_title {
+	    margin-bottom: 10px;
+	}
+
+	.baverages_post_wrap_title h3 {
+	    margin-top: -8px;
+	    font: 42px 'BebasNeueBold';
+	}
+
+	.b_p_content {
+	    @include pie-clearfix;
+	}
+
+	.big_bottle {
+	    float: left;
+	    width: 290px;
+	    text-align: center;
+	}
+
+	.b_p_content_soc {
+		@include beverages_post_social_icons;
+	    padding-left: 5px;
+	}
+
+	.big_bottle_info {
+	    width: 485px;
+	    padding-top: 40px;
+	    margin-left: 290px;
+	}
+
+	.big_bottle_info span {
+	    font: 18px 'PT_Sans-Web-Bold';
+	}
+
+	.big_bottle_info p {
+	    margin-top: 25px;
+	    font: 15px 'PT_Sans-Web-Regular';
+	}
+
+	.b_b_price {
+	    margin-top: 20px;
+	    font: 16px 'PT_Sans-Web-Italic';
+	    span {
+	        margin-left: 5px;
+	        font: 20px 'PT_Sans-Web-Bold';
+	    }
+	}
+
+	.big_bottle_info a {
+	    margin-top: 20px;
+
+	    @include order_btn;
+	}
+
+	// end baverages_post
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.buykorf_bever_post_content {
+	    padding-bottom: 235px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.b_bever_post_bread-crumbs {
+	    @include breadcrumbs_lg;
+
+		margin-bottom: 25px;
+	}
+
+	.b_bever_post_navigation {
+	    @include navigation_sm;
+	}
+
+	// aside navigation
+
+	.b_bever_post_navigation {
+
+		.b_c_makekorf-wrap {
+	        position: relative;
+	        margin-top: 110px;
+	        margin-bottom: 20px;
+	        text-align: center;
+	        &:before {
+	            position: absolute;
+	            top: -90px;
+	            left: 18px;
+	            width: 70px;
+	            height: 74px;
+	            content: '';
+	            background: url(../images/beverages_label-mid.png);
+	        }
+	        h4 {
+	            position: relative;
+	            margin-bottom: 10px;
+	            font: 14px 'BebasNeueBold';
+	        }
+	    }
+
+	    .b_c_makekorf-title h4 {
+	        &:after {
+	            position: absolute;
+	            bottom: -14px;
+	            left: 19px;
+	            width: 57px;
+	            height: 5px;
+	            font: 15px 'PT_Sans-Web-Regular';
+	            content: '';
+	            background: url(../images/dashed_line-art.png);
+	        }
+	    }
+
+	    .b_c_makekorf {
+	        margin-top: 20px;
+	    }
+
+	    .b_c_makekorf p {
+	        margin-bottom: 10px;
+	        font: 14px 'PT_Sans-Web-Italic';
+	    }
+
+	    .b_c_makekorf a {
+	        position: relative;
+	        font: 14px 'PT_Sans-Web-Bold';
+	        &:after {
+	            position: absolute;
+	            bottom: -17px;
+	            left: 10px;
+	            width: 57px;
+	            height: 5px;
+	            content: '';
+	            background: url(../images/dashed_line-art.png);
+	        }
+	    }
+	}
+
+	// end aside navigation
+
+	// baverages_post
+
+	.baverages_post_wrap_title {
+	    margin-bottom: 10px;
+	}
+
+	.baverages_post_wrap_title h3 {
+	    margin-top: -5px;
+	    font: 34px 'BebasNeueBold';
+	}
+
+	.b_p_content {
+	    @include pie-clearfix;
+	}
+
+	.big_bottle {
+	    float: left;
+	    width: 190px;
+	    text-align: center;
+	    img {
+	    	width: 150px;
+	    }
+	}
+
+	.b_p_content_soc {
+		@include beverages_post_social_icons;
+		span {
+			float: none;
+			font: 16px 'PT_Sans-Web-Bold';
+		}
+	    padding-left: 5px;
+	}
+
+	.big_bottle_info {
+	    width: 365px;
+	    padding-top: 40px;
+	    margin-left: 210px;
+	}
+
+	.big_bottle_info span {
+	    font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	.big_bottle_info p {
+	    margin-top: 15px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.b_b_price {
+	    margin-top: 20px;
+	    font: 16px 'PT_Sans-Web-Italic';
+	    span {
+	        margin-left: 5px;
+	        font: 20px 'PT_Sans-Web-Bold';
+	    }
+	}
+
+	.big_bottle_info a {
+	    margin-top: 15px;
+
+	    @include order_btn_sm;
+	}
+
+	// end baverages_post
+
+}
+
+@media (max-width: 767px) {
+
+	.buykorf_bever_post_content {
+	    padding-bottom: 270px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.b_bever_post_bread-crumbs {
+        width: 290px;
+        margin: 0 auto;
+
+	    @include breadcrumbs_lg;
+
+		margin-bottom: 15px;
+
+		.br_vac {
+	        color: #0f65bd;
+	        text-decoration: none;
+	        display: block;
+	        margin-top: 10px;
+	    }
+	}
+
+	.b_bever_post_navigation {
+        width: 290px;
+        margin: 0 auto;
+
+	    @include navigation_xs;
+	}
+
+	// aside navigation
+
+	.b_bever_post_navigation {
+
+		.b_c_makekorf-wrap {
+	        position: relative;
+            width: 290px;
+	        margin-top: 100px;
+	        margin-bottom: 20px;
+	        text-align: center;
+	        &:before {
+                position: absolute;
+                top: -80px;
+                left: 120px;
+                width: 70px;
+                height: 74px;
+                content: '';
+                background: url(../images/beverages_label-mid.png);
+            }
+            h4 {
+                position: relative;
+                margin-bottom: 10px;
+                font: 14px 'BebasNeueBold';
+            }
+	    }
+
+	    .b_c_makekorf-title h4 {
+	        &:after {
+                position: absolute;
+                bottom: -14px;
+                left: 120px;
+                width: 57px;
+                height: 5px;
+                font: 14px 'PT_Sans-Web-Regular';
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+	    }
+
+	    .b_c_makekorf {
+	        margin-top: 20px;
+	    }
+
+	    .b_c_makekorf p {
+	        margin-bottom: 0;
+            font: 13px 'PT_Sans-Web-Italic';
+	    }
+
+	    .b_c_makekorf a {
+	        position: relative;
+            font: 13px 'PT_Sans-Web-Bold';
+            &:after {
+                position: absolute;
+                bottom: -15px;
+                left: 19px;
+                width: 57px;
+                height: 5px;
+                content: '';
+                background: url(../images/dashed_line-art.png);
+            }
+	    }
+	}
+
+	// end aside navigation
+
+	// baverages_post
+
+	.baverages_post_wrap {
+		width: 290px;
+        margin: 0 auto;
+        text-align: center;
+	}
+
+	.baverages_post_wrap_title {
+        margin-top: 20px;
+	    margin-bottom: 10px;
+	}
+
+	.baverages_post_wrap_title h3 {
+	    font: 24px 'BebasNeueBold';
+	}
+
+	.b_p_content {
+	    @include pie-clearfix;
+	}
+
+	.big_bottle {
+	    // float: left;
+	    width: 290px;
+	    text-align: center;
+	    img {
+	    	width: 90px;
+	    }
+	}
+
+	.b_p_content_soc {
+		@include beverages_post_social_icons;
+	    margin: 0;
+	    padding: 0;
+	    text-align: center;
+		span {
+			float: none;
+			font: 13px 'PT_Sans-Web-Bold';
+		}
+		ul {
+			margin-left: 55px;
+		}
+
+	}
+
+	.big_bottle_info {
+	    width: 290px;
+	    padding-top: 25px;
+	    // margin-left: 210px;
+	}
+
+	.big_bottle_info span {
+	    font: 16px 'PT_Sans-Web-Bold';
+	}
+
+	.big_bottle_info p {
+	    margin-top: 5px;
+	    font: 15px 'PT_Sans-Web-Regular';
+	}
+
+	.b_b_price {
+	    margin-top: 20px;
+	    font: 16px 'PT_Sans-Web-Italic';
+	    span {
+	        margin-left: 5px;
+	        font: 20px 'PT_Sans-Web-Bold';
+	    }
+	}
+
+	.big_bottle_info a {
+	    margin: 0 auto;
+	    margin-top: 15px;
+
+	    @include order_btn_sm;
+	}
+
+	// end baverages_post
+
+}

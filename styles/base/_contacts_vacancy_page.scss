@@ -1,0 +1,25 @@
+// contacts_vacancy
+
+// vacancy_main_content
+
+.vacancy_main_content h3 {
+    color: #0f65bd;
+    text-transform: uppercase;
+}
+
+.vacancy_main_content p {
+    color: #2b3942;
+}
+
+.vac_positions a {
+    color: #2b3942;
+    text-decoration: none;
+    border-bottom: 1px dashed #2b3942;
+    &:hover {
+        color: #0f65bd;
+        border-bottom: 1px dashed #0f65bd;
+    }
+}
+
+
+// end contacts / vacancy

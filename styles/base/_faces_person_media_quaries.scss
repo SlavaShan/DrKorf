@@ -1,0 +1,369 @@
+@media (min-width: 1200px) {
+	
+	.faces_person_content {
+	    padding-bottom: 255px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 16px 'PT_Sans-Web-Regular';
+	}
+
+	.faces_person_content p {
+		line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.faces_person_bread-crumbs {
+	    @include breadcrumbs_lg;
+	}
+
+	// photogalary_content navigation
+
+	.faces_person_navigation {
+	    .cont_menu {
+	        ul {
+	            background-color: #d6d4d4;
+	            li {
+	                width: 165px;
+	                height: 70px;
+	                margin-bottom: 1px;
+	                background-color: #f4f4f5;
+	                border-left: 3px solid #e9e9e9;
+	                a {
+	                    display: block;
+	                    padding-left: 15px;
+	                    font: 20px 'BebasNeueBold';
+	                    line-height: 75px;
+	                    color: #2b3942;
+	                    text-decoration: none;
+	                    text-transform: uppercase;
+	                }
+	                &:hover {
+	                    background-color: #e9e9e9;
+	                    border-left: 3px solid #0f65bd;
+	                }
+	                &:last-child {
+	                    border-bottom: none;
+	                }
+	            }
+	        }
+	    }
+
+	    .cont_menu .cont_act_tab {
+	        background-color: #e9e9e9;
+	        border-left: 3px solid #0f65bd;
+	    }
+	}
+
+	// pesonal_title
+
+	.pesonal_title h3 {
+		margin-top: -10px;
+		margin-bottom: 40px;
+		font: 50px 'BebasNeueBold';
+	}
+
+	.pesonal_data img {
+		float: left;
+		margin-right: 33px;
+		width: 458px;
+		height: 376px;
+	}
+
+	.personal_thumbs {
+		margin-top: 55px;
+		padding-bottom: 15px;
+		ul {
+			margin-left: -25px;
+			li {
+				float: left;
+				margin-left: 25px;
+			}
+		}
+	}
+
+// end faces personal 
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	.faces_person_content {
+	    padding-bottom: 255px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.faces_person_content p {
+		line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.faces_person_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 35px;
+	}
+
+	// photogalary_content navigation
+
+	.faces_person_navigation {
+	    .cont_menu {
+	        ul {
+	            background-color: #d6d4d4;
+	            li {
+	                width: 132px;
+	                height: 60px;
+	                margin-bottom: 1px;
+	                background-color: #f4f4f5;
+	                border-left: 3px solid #e9e9e9;
+	                a {
+	                    display: block;
+	                    padding-left: 12px;
+	                    font: 18px 'BebasNeueBold';
+	                    line-height: 65px;
+	                    color: #2b3942;
+	                    text-decoration: none;
+	                    text-transform: uppercase;
+	                }
+	                &:hover {
+	                    background-color: #e9e9e9;
+	                    border-left: 3px solid #0f65bd;
+	                }
+	                &:last-child {
+	                    border-bottom: none;
+	                }
+	            }
+	        }
+	    }
+
+	    .cont_menu .cont_act_tab {
+	        background-color: #e9e9e9;
+	        border-left: 3px solid #0f65bd;
+	    }
+	}
+
+	// pesonal_title
+
+	.pesonal_title h3 {
+		margin-top: -8px;
+		margin-bottom: 30px;
+		font: 42px 'BebasNeueBold';
+	}
+	
+	.pesonal_data {
+		@include pie-clearfix;
+	}
+
+	.pesonal_data img {
+		float: left;
+		margin-right: 25px;
+		width: 358px;
+	}
+
+	.personal_thumbs {
+		margin-top: 45px;
+		padding-bottom: 15px;
+		ul {
+			margin-left: -25px;
+			li {
+				float: left;
+				margin-left: 25px;
+				img {
+					width: 240px;
+				}
+			}
+		}
+	}
+
+// end faces personal 
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.faces_person_content {
+	    padding-bottom: 235px;
+	    margin-top: 15px;
+	    margin-left: 10px;
+	    font: 14px 'PT_Sans-Web-Regular';
+	}
+
+	.faces_person_content p {
+		line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.faces_person_bread-crumbs {
+	    @include breadcrumbs_lg;
+		margin-bottom: 25px;
+	}
+
+	// photogalary_content navigation
+
+	.faces_person_navigation {
+	    .cont_menu {
+	        ul {
+	            background-color: #d6d4d4;
+	            li {
+	                width: 95px;
+	                height: 50px;
+	                margin-bottom: 1px;
+	                background-color: #f4f4f5;
+	                border-left: 3px solid #e9e9e9;
+	                a {
+	                    display: block;
+	                    padding-left: 10px;
+	                        padding-top: 10px;
+	                    font: 14px 'BebasNeueBold';
+	                        line-height: 1.1;
+	                    color: #2b3942;
+	                    text-decoration: none;
+	                    text-transform: uppercase;
+	                }
+	                &:hover {
+	                    background-color: #e9e9e9;
+	                    border-left: 3px solid #0f65bd;
+	                }
+	                &:last-child {
+	                    border-bottom: none;
+	                    a {
+	                        padding-top: 18px;
+		                    // line-height: 50px;
+	                    }
+	                }
+	            }
+	        }
+	    }
+
+	    .cont_menu .cont_act_tab {
+	        background-color: #e9e9e9;
+	        border-left: 3px solid #0f65bd;
+	    }
+	}
+
+	// pesonal_title
+
+	.pesonal_title h3 {
+		margin-top: -5px;
+		margin-bottom: 20px;
+		font: 34px 'BebasNeueBold';
+	}
+	
+	.pesonal_data {
+		@include pie-clearfix;
+	}
+
+	.pesonal_data img {
+		float: left;
+		margin-right: 30px;
+		width: 258px;
+	}
+
+	.personal_thumbs {
+		margin-top: 35px;
+		padding-bottom: 15px;
+		ul {
+			margin-left: -20px;
+			li {
+				float: left;
+				margin-left: 20px;
+				img {
+					width: 185px;
+				}
+			}
+		}
+	}
+
+// end faces personal 
+}
+
+@media (max-width: 767px) {
+
+	.faces_person_content {
+	    padding-bottom: 265px;
+	    margin-top: 15px;
+	    font: 12px 'PT_Sans-Web-Regular';
+	}
+
+	.faces_person_content p {
+		line-height: 1.5;
+	}
+
+	// bread crumbs
+
+	.faces_person_bread-crumbs {
+	    width: 290px;
+        margin: 0 auto;
+
+        @include breadcrumbs_lg;
+        margin-bottom: 20px;
+	}
+
+	// photogalary_content navigation
+
+	.faces_person_navigation {
+		@include navigation_xs;
+	    width: 290px;
+        margin: 0 auto;
+	    .cont_menu {
+	        ul {
+	            li:last-child {
+                    border-bottom: none;
+                    a {
+                        padding-top: 0;
+                        line-height: 55px;
+                    }
+                }
+	            
+	        }
+	    }
+	}
+
+	// pesonal_title
+	
+	.pesonal_title {
+		width: 290px;
+		margin: 0 auto;
+	}
+
+	.pesonal_title h3 {
+		margin-top: 25px;
+		margin-bottom: 15px;
+		font: 24px 'BebasNeueBold';
+		text-align: center;
+	}
+	
+	.pesonal_data {
+		width: 290px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.pesonal_data img {
+		margin-bottom: 5px;
+		width: 290px;
+	}
+
+	.personal_thumbs {
+		margin-top: 15px;
+		text-align: center;
+		ul {
+			margin-left: -20px;
+			li {
+				margin-left: 20px;
+				margin-bottom: 5px;
+				img {
+					width: 185px;
+				}
+			}
+		}
+	}
+
+// end faces personal 
+
+}
+

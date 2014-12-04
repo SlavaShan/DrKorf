@@ -1,0 +1,66 @@
+
+// contacts
+
+
+// our contacts
+
+.our_contacts header h3 {
+    color: #0f65bd;
+}
+
+.o_c_phone,
+.o_c_mail {
+    color: #2b3942;
+}
+
+.o_c_faq {
+    color: #2b3942;
+    text-decoration: none;
+    border-bottom: 1px dashed #2b3942;
+}
+
+// end our contacts
+
+// write to us form
+
+.write_us_form form {
+    background-color: #f4f4f5;
+}
+
+.write_us_form-title {
+    color: #0f65bd;
+}
+
+.write_us_form label {
+    color: #2b3942;
+}
+
+.write_us_form input {
+    background-color: #fff;
+    border: none;
+            border-radius: 3px;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+       -moz-box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+            box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+}
+
+.write_us_form textarea {
+    background-color: #fff;
+    border: none;
+            border-radius: 3px/3px 3px 2px 2px;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+       -moz-box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+            box-shadow: inset 1px 1px 2px rgba(164,164,164,.75);
+
+    -webkit-border-radius: 3px/3px 3px 2px 2px;
+       -moz-border-radius: 3px/3px 3px 2px 2px;
+}
+
+.write_us_form .order_btn {
+    @include order_btn;
+}
+
+// end write to us form
